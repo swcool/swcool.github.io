@@ -75,7 +75,7 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 
 ### Code: JavaScript
 
-```Javascript
+```
     function myFunction()
     {
       var obj=document.getElementById("h01");
@@ -99,7 +99,7 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 
 ### Code: Go 
 
-```go
+```
     package main
     import "fmt"
 
