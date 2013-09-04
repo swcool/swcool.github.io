@@ -67,12 +67,6 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 
 ### Ruby Code   
 
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
 ```ruby
   def test
     puts "Hello World!"
@@ -81,7 +75,7 @@ end
 
 ### Code: JavaScript
 
-```
+```Javascript
     function myFunction()
     {
       var obj=document.getElementById("h01");
@@ -91,7 +85,7 @@ end
 ```
 
 ### Code: CSS
-``` css  
+```css  
   #markdown-container {
     display: inline;
     float: left;
@@ -105,7 +99,7 @@ end
 
 ### Code: Go 
 
-```
+```go
     package main
     import "fmt"
 
