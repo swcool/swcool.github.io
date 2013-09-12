@@ -35,9 +35,10 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
   <tr>
      <td>Foo3</td><td>Foo4</td>
   </tr>
-</table>
+</table>  
 
-```
+
+```html
 <table>
   <tr>
      <th>Head1</th><th>Head2</th>
@@ -55,9 +56,10 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 | ------------- |:-------------:| -----:|
 | col 3 is | right-aligned | $1600 |
 | col 2 is | centered | $12 |
-| zebra stripes | are neat | $1 |
+| zebra stripes | are neat | $1 |  
 
-```
+
+```sh
 | Tables | Are | Cool |
 | ------------- |:-------------:| -----:|
 | col 3 is | right-aligned | $1600 |
@@ -75,7 +77,7 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 
 ### Code: JavaScript
 
-```
+```javascript
     function myFunction()
     {
       var obj=document.getElementById("h01");
@@ -99,7 +101,7 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 
 ### Code: Go 
 
-```
+```go
     package main
     import "fmt"
 
