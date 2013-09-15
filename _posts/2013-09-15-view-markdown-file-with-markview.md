@@ -110,8 +110,21 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
     }
 ```
 
+## MarkView Screenshot  
+
+![MarkView](/images/screen105.png)
+
 ## Chrome Web Store Location
 
 - Project Name: [MarkView](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)  
 
 - Report: [Any Suggestions](https://chrome.google.com/webstore/support/iaddkimmopgchbbnmfmdcophmlnghkim?hl=en&gl=US#bug)
+
+## References  
+
+- About Markdown, see [project
+  site](http://daringfireball.net/projects/markdown/)  
+- [Github Flavored
+  Markdown](https://help.github.com/articles/github-flavored-markdown)  
+- [Markdown Cheat
+  Sheet](http://support.mashery.com/docs/customizing_your_portal/Markdown_Cheat_Sheet)
