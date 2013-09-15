@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "MarkView First Release to Chome Web Store"
-date:   2013-09-03 11:23:00
+title: "View Markdown File with MarkView"
+date:   2013-09-15 11:23:00
 categories: blog
 ---
  
