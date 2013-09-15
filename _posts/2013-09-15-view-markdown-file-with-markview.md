@@ -110,7 +110,7 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
     }
 ```
 
-## MarkView Screenshot  
+## Screenshot Sample
 
 ![MarkView](/images/screen105.png)
 
