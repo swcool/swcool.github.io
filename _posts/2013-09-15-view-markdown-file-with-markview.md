@@ -126,5 +126,3 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
   site](http://daringfireball.net/projects/markdown/)  
 - [Github Flavored
   Markdown](https://help.github.com/articles/github-flavored-markdown)  
-- [Markdown Cheat
-  Sheet](http://support.mashery.com/docs/customizing_your_portal/Markdown_Cheat_Sheet)
