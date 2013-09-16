@@ -112,7 +112,7 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 
 ## Screenshot Sample
 
-![MarkView](/images/screen105.png)
+![MarkView](/assets/images/screen105.png)
 
 ## Chrome Web Store Location
 
