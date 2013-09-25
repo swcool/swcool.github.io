@@ -1,29 +1,9 @@
 <!DOCTYPE html>
 <html>
-    {% include header.html %}
-    <body>
-      <div class="container">
-
-        <!-- Static navbar -->
-        <div class="navbar navbar-default">
-            <div class="navbar-header">
-            <!-- div class="container" -->
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" style="font-size:30px" href="/">Shane Weng</a>
-           </div>
-           <div class="navbar-collapse collapse">
-              <ul class="nav nav-pills navbar-nav navbar-right">
-                <li><a title="List Posts" href="/">Blog</a></li>
-                <li><a title="Lab Contents" href="/lab.html">Lab</a></li>
-                <li><a title="About me" href="/about.html">About</a></li>
-                <li><a title="Atom Feed" href="/assets/atom.xml">Feed</a></li>
-              </ul>
-           </div><!--/.nav-collapse -->
-       </div>
+  {% include header.html %}
+  <body>
+    <div class="container">
+      {% include navbar.html %}
 
        <div class="site">
          {{ content }}
