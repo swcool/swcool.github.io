@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Build A Blog Website Using Octopress
-comments: true
-tags: [tech, buz]
 category: blog
+tags: jekyll github 
 ---
 
 ## What is Octopress?[1]

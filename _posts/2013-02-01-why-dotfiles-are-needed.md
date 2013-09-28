@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Why Dot Files are Needed
-comments: true
-tags: [tech, buz]
 category: blog
+tags: [dotfiles, git]
 ---
 
 ## Why would I want my dotfiles?[1]
