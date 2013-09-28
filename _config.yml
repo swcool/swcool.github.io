@@ -2,6 +2,7 @@
 #   Main Configs
 # --------------------- #
 url:  http://swcool.github.io
+addr: swcool.github.io
 title: Talk about Tech and Biz
 author: Shane Weng
 categories: blog coding biz
@@ -10,6 +11,7 @@ permalink: /:categories/:title
 twitter: baiyungroup  
 disqus_shortname: swgithub
 googleplus: shane.weng@gmail.com
+analytics: UA-44428045-1
 
 # --------------------- #
 #   Jekyll & Plugin 
