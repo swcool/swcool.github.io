@@ -2,7 +2,7 @@
 layout: post
 title: "View Markdown File with MarkView"
 category: blog
-tags: markdown jekyll
+tags: [markdown, jekyll]
 ---
  
 ## MarkView

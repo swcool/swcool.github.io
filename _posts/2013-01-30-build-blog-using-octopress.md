@@ -2,7 +2,7 @@
 layout: post
 title: Build A Blog Website Using Octopress
 category: blog
-tags: jekyll github 
+tags: [jekyll, github] 
 ---
 
 ## What is Octopress?[1]
