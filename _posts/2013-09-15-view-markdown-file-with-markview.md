@@ -21,6 +21,10 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 5. Support multiple table format styles, code syntax highlight and
 [GFM](https://help.github.com/articles/github-flavored-markdown).  
 6. Highlight the code area for programming languages(eg. ```ruby)
+7. Support HTML printing with decent outlook(Chrome->File->Print...)  
+8. Responsive: when the window size small than 940px, outline section
+will automatically hidden; resize bigger than 940px, outline section
+will display.  
 
 ## Sample
 ### Multiple Table Format Styles
@@ -126,3 +130,4 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
   site](http://daringfireball.net/projects/markdown/)  
 - [Github Flavored
   Markdown](https://help.github.com/articles/github-flavored-markdown)  
+- Note: Markview code is private, will not post in public.
