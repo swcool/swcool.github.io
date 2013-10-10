@@ -15,7 +15,8 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 ## Features
 
 1. Viewing markdown file in HTML format
-2. Auto reload local file when file is changed
+2. Auto reload local file when file is changed (Post-installation:
+select "Allow access to file URLs" option in chrome://extensions/)
 3. Show outline beside the content in scrollable way
 4. Have buttons for GoTop, ViewSource and GoBottom
 5. Support multiple table format styles, code syntax highlight and
