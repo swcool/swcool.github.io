@@ -14,7 +14,7 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 
 ## Features
 
-1. Viewing markdown file in HTML format
+1. Viewing markdown file in web page style.
 2. Auto reload local file when file is changed (Post-installation:
 select "Allow access to file URLs" option in chrome://extensions/)
 3. Show outline beside the content in scrollable way
