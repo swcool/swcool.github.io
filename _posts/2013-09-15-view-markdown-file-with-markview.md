@@ -22,7 +22,7 @@ select "Allow access to file URLs" option in chrome://extensions/)
 5. Support multiple table format styles, code syntax highlight and
 [GFM](https://help.github.com/articles/github-flavored-markdown).  
 6. Highlight the code area for programming languages(eg. ```ruby)
-7. Support HTML printing with decent outlook(Chrome->File->Print...)  
+7. Support web pages printing with decent outlook(Chrome->File->Print...)  
 8. Responsive: when the window size small than 940px, outline section
 will automatically hidden; resize bigger than 940px, outline section
 will display.  
