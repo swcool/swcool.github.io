@@ -26,6 +26,8 @@ select "Allow access to file URLs" option in chrome://extensions/)
 8. Responsive: when the window size small than 940px, outline section
 will automatically hidden; resize bigger than 940px, outline section
 will display.  
+9. MarkView will view all markdown files except those under
+raw.github.com because that subdomain only displays the source.
 
 ## Sample
 ### Multiple Table Format Styles
