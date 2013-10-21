@@ -14,7 +14,6 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/Msk1EFQ9ELI" frameborder="0" allowfullscreen></iframe>
 
-
 ## Features
 
 1. Viewing markdown file in web page style.
