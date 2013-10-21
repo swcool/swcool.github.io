@@ -16,7 +16,7 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 src="//www.youtube.com/embed/Msk1EFQ9ELI" frameborder="0"
 allowfullscreen></iframe>
 
-## Features
+### Features
 
 1. Viewing markdown file in web page style.
 2. Auto reload local file when file is changed (Post-installation:
@@ -33,8 +33,8 @@ will display.
 9. MarkView will view all markdown files except those under
 raw.github.com because that subdomain only displays the source.
 
-## Sample
-### Multiple Table Format Styles
+### Sample
+#### Multiple Table Format Styles
 
 <table>
   <tr>
@@ -78,7 +78,7 @@ raw.github.com because that subdomain only displays the source.
 | zebra stripes | are neat | $1 |
 ```
 
-### Ruby Code   
+#### Ruby Code   
 
 ```ruby
   def test
@@ -86,7 +86,7 @@ raw.github.com because that subdomain only displays the source.
   end
 ```
 
-### Code: JavaScript
+#### Code: JavaScript
 
 ```javascript
     function myFunction()
@@ -97,7 +97,7 @@ raw.github.com because that subdomain only displays the source.
     onload=myFunction;
 ```
 
-### Code: CSS
+#### Code: CSS
 ```css  
   #markdown-container {
     display: inline;
@@ -110,7 +110,7 @@ raw.github.com because that subdomain only displays the source.
   }
 ```
 
-### Code: Go 
+#### Code: Go 
 
 ```go
     package main
@@ -121,11 +121,11 @@ raw.github.com because that subdomain only displays the source.
     }
 ```
 
-## Screenshot Sample
+### Screenshot Sample
 
 ![MarkView](/assets/images/screen105.png)
 
-## Support MarkView   
+### Support MarkView   
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -135,13 +135,13 @@ raw.github.com because that subdomain only displays the source.
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-## Chrome Web Store Location
+### Chrome Web Store Location
 
 - Project Name: [MarkView](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)  
 
 - Report: [Any Suggestions](https://chrome.google.com/webstore/support/iaddkimmopgchbbnmfmdcophmlnghkim?hl=en&gl=US#bug)
 
-## References  
+### References  
 
 - About Markdown, see [project
   site](http://daringfireball.net/projects/markdown/)  
