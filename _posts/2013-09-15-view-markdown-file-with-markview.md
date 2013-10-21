@@ -12,7 +12,7 @@ an outline view, support multiple table format styles, code block syntax
 highlight and [Github Flavored
 Markdown](https://help.github.com/articles/github-flavored-markdown).
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/Msk1EFQ9ELI" frameborder="0" allowfullscreen> </iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/Msk1EFQ9ELI" frameborder="0"> </iframe>
 
 ## Features
 
