@@ -125,7 +125,14 @@ raw.github.com because that subdomain only displays the source.
 
 ![MarkView](/assets/images/screen105.png)
 
-### Support MarkView   
+### Markdown Cheat Sheet
+
+![Markdown Cheat Sheet](/assets/images/markdown-cheatsheet.jpg)
+
+About Cheat Sheet is available in this [link](https://docs.google.com/viewer?url=http%3A%2F%2Fpacketlife.net%2Fmedia%2Flibrary%2F16%2FMarkdown.pdf)
+
+### Support MarkView as a free tool at Chrome Web Store  
+<br/>
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
