@@ -129,7 +129,7 @@ raw.github.com because that subdomain only displays the source.
 
 ![Markdown Cheat Sheet](/assets/images/markdown-cheatsheet.jpg)
 
-About Cheat Sheet is available in this
+Above Cheat Sheet is available in this
 [link](http://packetlife.net/media/library/16/Markdown.pdf)
 
 ### Support MarkView as a free tool at Chrome Web Store  
