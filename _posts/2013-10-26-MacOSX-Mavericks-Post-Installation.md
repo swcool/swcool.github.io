@@ -12,6 +12,9 @@ answer the **AGREE**, my git version control system shows up and works
 properly.
 
 ## Tip 2:
+`git config` settings have been changed to default, redo the setting if you need.
+
+## Tip 3:
 Start Xcode, select "Open Developer Tool" -> "More Developer Tool ...":
 In open web page, select "Command Line Tools(OS X Mavericks) for Xcode -
 Late October" "Oct 22, 2013". Install this tool, because it says:
@@ -21,5 +24,3 @@ Late October" "Oct 22, 2013". Install this tool, because it says:
 Without this, you will have problem when you use `make` to compile
 source code on command line.
 
-## Tip 3:
-`git config` settings have been changed to default, redo the setting if you need.
