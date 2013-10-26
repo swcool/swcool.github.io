@@ -20,3 +20,6 @@ Late October" "Oct 22, 2013". Install this tool, because it says:
 
 Without this, you will have problem when you use `make` to compile
 source code on command line.
+
+## Tip 3:
+`git config` settings have been changed to default, redo the setting if you need.
