@@ -19,7 +19,8 @@ I am Shane Weng, a Software developer from Silicon Valley, California.
 
 ### Software I use
 
-- Language - [Ruby](https://www.ruby-lang.org/en/) and more
+- Language - [Ruby](https://www.ruby-lang.org/en/) and 
+  [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Web Framework - [Ruby on Rails](http://rubyonrails.org/)
 - Workspace - [tmux](http://tmux.sourceforge.net/)  
 - Editor - [vim](http://www.vim.org/)
