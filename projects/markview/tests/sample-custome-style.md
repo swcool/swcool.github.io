@@ -4,17 +4,17 @@
 
 1. Basic (example)
 
-```css
-* { font-size: 120%; color: red;}
-```
+    ```css
+    * { font-size: 120%; color: red;}
+    ```
 
 2. Hide Markview outline and buttons-container (example)
 
-```css
-p {color: green;}
-#markdown-buttons-container { visibility: hidden; }
-#markdown-outline {  visibility: hidden; }
-```
+    ```css
+    p {color: green;}
+    #markdown-buttons-container { visibility: hidden; }
+    #markdown-outline {  visibility: hidden; }
+    ```
 
 3. Instruction: User can go to Inspect Element to find the item to change. 
   * Steps:
