@@ -12,7 +12,9 @@
 
     ```css
     p {color: green;}
+
     #markdown-buttons-container { visibility: hidden; }
+    
     #markdown-outline {  visibility: hidden; }
     ```
 
