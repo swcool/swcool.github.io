@@ -1,39 +1,54 @@
 
+# MarkView Slides
+### Instant Presentation through Markview
+1. Turn your markdown file to slides.
+1. Seperate each slide by "---" 
+1. Drag and drop a Markdown document
+1. Stylish with 6 themes.
 
-# Test 1  This is what I am looking for!
-~~What are you doing~~
+---
+
+## Code Syntax Highligh
+
+<h3> This is cool</h3>
+
+~~What are you doing~~  
+
 ```ruby
-def abc
+def test
   puts "hi, Test 1  This is what I am" + 
   "looking for! Test 1  This" + 
   "is what I am looking for!";
 end
-``` 
+```  
 
+Slide seperator also accept this `<hr>` and `<hr/>`
 <hr>
 
-# Test2 
+## Stylish presentation with themes
+  * coverflow
+  * classic
+  *	cube
+  * carousel
+  * concave 
+  * blackwhite
 
-<h2> This is cool</h2>
+### Cool stuff Just try
+Markview Slide Display using **bespoke.js**
 
 <hr/>
 
-# Test 3  
-
-## Cool stuff
-### Just try
-
----
-
-Great Picture!
+## Image embeded, Great Picture!
 ![ocean](http://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg)
 
 ---  
 
-# This is great! 
+## Another way to display image! 
 
 <p align="center">
 <img src="http://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg", style="width: 500px;"/>
 </p>
+
+Don't forget to put "---" or `<hr/>` at the end of each slide
 
 ---
