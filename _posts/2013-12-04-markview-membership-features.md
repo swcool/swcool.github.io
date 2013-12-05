@@ -14,7 +14,7 @@ fee is $10 (USD) for 6 months.
 
 ## Join Membership Steps
   1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
-     Click Paypla "Membership" Button to go to Paypal to apply, Memebership has 15 days trial period.
+     Click Paypal "Membership" Button to go to Paypal to apply, Memebership has 15 days trial period.
   2. After we recieve notice from Paypal if user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server. (This may take 5 minutes to 12 hours)
   3. Go to Markview Extension Option page, click "Membership Access" to sign in, after "Membership Access" button 
      turn Green, you are ready to use membership features.
@@ -59,3 +59,35 @@ fee is $10 (USD) for 6 months.
 
 ### How To convert markdown document to slides:
   1. Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
+
+## Join Membership Here
+
+<div id="signup">
+    <h5><em>MarkView Membership Subscribe:</em> 15 days trial period for free, <br/>
+    (USD) $10/6months, payment handle by PayPal</h5>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="QJMWAN87X9S78">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+<br/><br/>
+</div>
+
+## References
+  1. [MarkView Free Version Features](http://shaneweng.com/blog/view-markdown-file-with-markview/)
+  2. [MarkView Chrome Web Store](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)
+
+---  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45893255-1', 'markview.herokuapp.com');
+  ga('send', 'pageview');
+
+</script>
