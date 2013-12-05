@@ -8,7 +8,9 @@ tags: [markdown, jekyll]
 ## Introduction
 Markview Memebership current has three execellent Features: **custome style, footnotes**, and **slides.**  
 
-To be able to use membership, user need to sign up the memebership plan through paypal. Membership has 15 days trial period for free.
+To be able to use membership, user need to sign up the memebership plan
+through paypal. Membership has 15 days trial period for free. Membership
+fee is $10 (USD) for 6 months.
 
 ## Join Membership Steps
   1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
