@@ -21,8 +21,11 @@ Test Text[^word] Text[^1]
 This is second test[^2], the result is great!  
 
 Put your three footnotes here, they will be moved to footnotes area:
-[^1]: http://www.google.com
+
+[^1]: wrote by someone   
+
 [^2]: This is a test  
+
 [^word]: a note  
 
 
