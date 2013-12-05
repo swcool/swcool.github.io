@@ -1,3 +1,11 @@
+# MarkView
+## Membership Features
+
+1. Custom Styling for markdown document
+2. Support footnotes
+3. Instant Presentation with Slides
+
+---
 
 # MarkView Slides
 ### Instant Presentation through Markview
