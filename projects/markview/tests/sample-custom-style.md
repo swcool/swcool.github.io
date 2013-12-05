@@ -1,6 +1,6 @@
 # Membership Only
 
-## Custome Style
+## Custom Style
 
 ### Basic (example)
 

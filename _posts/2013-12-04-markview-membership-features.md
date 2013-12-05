@@ -6,7 +6,7 @@ tags: [markdown, jekyll]
 ---
 
 ## Introduction
-Markview Memebership current has three execellent Features: **custome style, footnotes**, and **slides.**  
+Markview Memebership current has three execellent Features: **custom style, footnotes**, and **slides.**  
 
 To be able to use membership, user need to sign up the memebership plan
 through paypal. Membership has 15 days trial period for free. Membership
@@ -23,12 +23,12 @@ fee is $10 (USD) for 6 months.
 **Make sure 'Membership Access' button is Green**  before you use any membership features! 
 
 ## Custom Styling Feature
-  1. Select checkbox "Use Custome Style" and click "Save My Options"
+  1. Select checkbox "Use Custom Style" and click "Save My Options"
   2. Enter the style you like (css) below in textarea and save.
   3. Navigate to your markdown page
   4. Click the browser action icon
   5. Hey, CSS is injected!
-  6. [Sample online](http://shaneweng.com/projects/markview/tests/sample-custome-style.md)
+  6. [Sample online](http://shaneweng.com/projects/markview/tests/sample-custom-style.md)
 
 ## Footnotes Feature
   1. Make sure UNcheck checkbox "Use Slide Style".
