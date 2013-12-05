@@ -122,23 +122,15 @@ function initHighlight(block, flags) {
       return processBlock(block, true, 0x0F) + ' class=""';
   } catch (e) {
     /* handle exception */
-
-    var e4x =
-        &lt;div&gt;Example
-            &lt;p&gt;1234&lt;/p&gt;&lt;/div&gt;;
-  }
-  for (var i = 0 / 2; i &lt; classes.length; i++) { // "0 / 2" should
-not be parsed as regexp
-    if (checkCondition(classes[i]) === undefined)
-      return /\d+[\s/]/g;
   }
 }
-    function myFunction()
-    {
-      var obj = document.getElementById('h01');
-      obj.innerHTML = "Hello jQuery";
-    }
-    onload = myFunction;
+
+function myFunction()
+{
+  var obj = document.getElementById('h01');
+  obj.innerHTML = "Hello jQuery";
+}
+onload = myFunction;
 ```
 
 ### Code: CSS
@@ -166,27 +158,6 @@ not be parsed as regexp
 ```
 
 ## Change Log
-### 0.0.8
-  `git pull --tags`  
-
-  `git add .`
-
-  - Using Github like sytles, support Github like table styles.
-  - Update the screenshot  
-
-### 0.0.7
-  - Move buttons to right bottom corner.
-  - Update the screenshot
-
-### 0.0.6
-  - move buttons to right to keep outline and buttons in one place;
-  - Update outline css to have better fit size  
-  
-### 0.0.5  
-  - Some UI changes: change width percentage; move top, source, bottom to left
-
-### 0.0.4  
-  - Used marked.js instead of showdown.js to render MD  
 
 ### 0.0.3  
   - Removed container border when print  
