@@ -16,12 +16,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 Here is a footnote[^footnote].   
   [^footnote]: Here is the *text* of the **footnote**.  
 
-## Test footnote
-[Google][^1]  
-[Test][^2]  
-Text[^word] Text
 
-Put your footnotes here, they will be moved to footnotes area:
+Test Text[^word] Text[^1]  
+This is second test[^2], the result is great!  
+
+Put your three footnotes here, they will be moved to footnotes area:
 [^1]: http://www.google.com
 [^2]: This is a test  
 [^word]: a note  
