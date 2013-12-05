@@ -1,4 +1,4 @@
-s# MarkView
+# MarkView
 
 MarkView is a Chrome extention for reading markdown file with
 an outline view, support Github Flavored Markdown which includeing 
