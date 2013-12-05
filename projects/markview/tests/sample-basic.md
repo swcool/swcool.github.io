@@ -1,4 +1,4 @@
-# MarkView
+s# MarkView
 
 MarkView is a Chrome extention for reading markdown file with
 an outline view, support Github Flavored Markdown which includeing 
@@ -15,46 +15,7 @@ table styles and code block syntax highlight.
 
 ## Sample
 
-### Test footnote
-[Google][1]  
-[Test][2]  
-Text[^word] Text
-
-Footnotes:
-[1]: http://www.google.com
-[2]: This is a test  
-[^word]: a note  
-
-
-See Euclid's 5<sup>th</sup> postulate.
-
-These lines are _going to_ intersect[^1]!
-
-...
-
-[^1]: See Euclid's 5<sup>th</sup> postulate.
-
-### Task List
-
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del>
-  supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-
-
 ### Test Block
-
-  `\tcode\n\n\tcode\n\n\tcode`
-Hello World!\n
-\tGood! 
-This is test\n\n
-
-> \tcode\n\n\tcode\n\n\tcode
-
-```ruby
-\tcode\n\n\tcode\n\n\tcode
-```
 
 ```
 Note line: download if failed, and "reboot".
