@@ -15,8 +15,7 @@ fee is $10 (USD) for 6 months.
 ## Join Membership Steps
   1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
      Click Paypla "Membership" Button to go to Paypal to apply, Memebership has 15 days trial period.
-  2. After we recieve notice from Paypal if user sign up the membership plan successfully, we will send user email to let he/she  
-     sign in Markview Service Server. (This may take 5 minutes to 12 hours)
+  2. After we recieve notice from Paypal if user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server. (This may take 5 minutes to 12 hours)
   3. Go to Markview Extension Option page, click "Membership Access" to sign in, after "Membership Access" button 
      turn Green, you are ready to use membership features.
   4. If you have any issues regarding membership process, send email to: contact@baiyunconsulting.com  
