@@ -8,13 +8,7 @@ tags: [markdown, jekyll]
 ## Introduction
 Markview Memebership current has three execellent Features: **Custom Styling, Footnotes Support**, and **Slides Presentation.**  
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/uNu-lhxo4Vc" frameborder="0" allowfullscreen></iframe>
-
-To be able to use membership, user need to sign up the memebership plan
-through paypal. Membership has 10 days trial period for free. Membership
-fee is $10 (USD) for 6 months.
-
-## Public Trial Schedule Twice A week
+### Public Trial Schedule: Twice A week
   1. Pacific Time Zone(UTC-8): Saturday 8:00 am - Saturday 8:00 pm (12 hours)
   2. Pacific Time Zone(UTC-8): Tuesday  8:00 pm - Wednesday 8:00 am (12 hours)
 
@@ -24,12 +18,16 @@ fee is $10 (USD) for 6 months.
    Password: mypassword
 ```
 
+<iframe width="420" height="315" src="//www.youtube.com/embed/uNu-lhxo4Vc" frameborder="0" allowfullscreen></iframe>
 
+To be able to use membership, user need to sign up the memebership plan
+through paypal. Membership has 10 days trial period for free. Membership
+fee is $10 (USD) for 6 months.
 
 ## Join Membership Steps
   1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
      Click Paypal "Membership" Button to go to Paypal to apply, Memebership has 10 days trial period for free.
-  2. After we recieve notice from Paypal if user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server. (This may take 5 minutes to 12 hours)
+  2. After we recieve notice from Paypal if user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server. (This may take 1 to 12 hours)
   3. Go to Markview Extension Option page, click "Membership Access" to sign in, after "Membership Access" button 
      turn Green, you are ready to use membership features.
   4. If you have any issues regarding membership process, send email to: contact@baiyunconsulting.com  
