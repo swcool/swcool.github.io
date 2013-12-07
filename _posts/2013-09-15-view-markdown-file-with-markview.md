@@ -16,6 +16,8 @@ Markdown](https://help.github.com/articles/github-flavored-markdown).
 src="//www.youtube.com/embed/GhLN1m2NeUY" frameborder="0"
 allowfullscreen></iframe>
 
+<a href="http://v.youku.com/v_show/id_XNjM0MjI1NTI4.html" target="_blank">Same Video on YouKu</a>
+
 ### Features
 
 1. Viewing markdown file in web page style.
@@ -34,6 +36,9 @@ will display.
 raw.github.com because that subdomain only displays the source.
 
 ### Sample
+
+#### [Basic Sample Online](http://shaneweng.com/projects/markview/tests/sample-basic.md)  
+
 #### Multiple Table Format Styles
 
 <table>

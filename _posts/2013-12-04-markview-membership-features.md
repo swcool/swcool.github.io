@@ -22,6 +22,8 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/uNu-lhxo4Vc" frameborder="0" allowfullscreen></iframe>
 
+<a href="http://v.youku.com/v_show/id_XNjQ0Mzk5NDY0.html" target="_blank">Same Video on YouKu</a>
+
 ## Join Membership Steps
   1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
      Click Paypal "Membership" Button to go to Paypal to apply, Memebership has 10 days trial period for free, membership fee is $10 (USD) for 6 months.
