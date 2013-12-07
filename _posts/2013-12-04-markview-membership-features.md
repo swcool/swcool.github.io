@@ -18,15 +18,13 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
    Password: mypassword
 ```
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/uNu-lhxo4Vc" frameborder="0" allowfullscreen></iframe>
+  Don't forget to try out sample test for each feature in below sections.
 
-To be able to use membership, user need to sign up the memebership plan
-through paypal. Membership has 10 days trial period for free. Membership
-fee is $10 (USD) for 6 months.
+<iframe width="420" height="315" src="//www.youtube.com/embed/uNu-lhxo4Vc" frameborder="0" allowfullscreen></iframe>
 
 ## Join Membership Steps
   1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
-     Click Paypal "Membership" Button to go to Paypal to apply, Memebership has 10 days trial period for free.
+     Click Paypal "Membership" Button to go to Paypal to apply, Memebership has 10 days trial period for free, membership fee is $10 (USD) for 6 months.
   2. After we recieve notice from Paypal if user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server. (This may take 1 to 12 hours)
   3. Go to Markview Extension Option page, click "Membership Access" to sign in, after "Membership Access" button 
      turn Green, you are ready to use membership features.
@@ -40,14 +38,18 @@ fee is $10 (USD) for 6 months.
   3. Navigate to your markdown page
   4. Click the browser action icon
   5. Hey, CSS is injected!
-  6. [Sample online](http://shaneweng.com/projects/markview/tests/sample-custom-style.md)
+  <div>
+    <a href="http://shaneweng.com/projects/markview/tests/sample-custom-style.md" target="_blank">Sample Online: Custom Styling</a>
+  </div>
 
-## Footnotes Feature
+## Footnotes Support Feature
   1. Make sure UNcheck checkbox "Use Slide Style".
   2. Navigate to your markdown page.
   3. Click the browser action icon
   4. Hey, footnotes are presented!
-  5. [Sample online](http://shaneweng.com/projects/markview/tests/sample-footnotes.md)
+  <div>
+    <a href="http://shaneweng.com/projects/markview/tests/sample-footnotes.md" target="_blank">Sample Online: Footnotes Support</a>
+  </div>
 
 ### How To write footnotes:
   * Each footnote need to be in a separate line, start with 0 to 3 space ( less than 4 space).
@@ -62,12 +64,14 @@ fee is $10 (USD) for 6 months.
 	```
 
 
-## Slide Display Feature
+## Slides Presentation Feature
   1. Select checkbox "Use Slide Style" and click "Save My Options"
   2. Navigate to your markdown page (file has "---" at the end to seperate each slide )
   3. Click the browser action icon
   4. Hey, slides are presented!
-  5. [Sample online](http://shaneweng.com/projects/markview/tests/sample-slides.md)
+  <div>
+    <a href="http://shaneweng.com/projects/markview/tests/sample-slides.md" target="_blank">Sample Online: Slides Presentation</a>
+  </div>
 
 ### How To convert markdown document to slides:
   1. Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
