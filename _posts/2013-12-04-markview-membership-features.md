@@ -6,17 +6,29 @@ tags: [markdown, jekyll]
 ---
 
 ## Introduction
-Markview Memebership current has three execellent Features: **custom style, footnotes**, and **slides.**  
+Markview Memebership current has three execellent Features: **Custom Styling, Footnotes Support**, and **Slides Presentation.**  
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/uNu-lhxo4Vc" frameborder="0" allowfullscreen></iframe>
 
 To be able to use membership, user need to sign up the memebership plan
-through paypal. Membership has 15 days trial period for free. Membership
+through paypal. Membership has 10 days trial period for free. Membership
 fee is $10 (USD) for 6 months.
+
+## Public Trial Schedule Twice A week
+  1. Pacific Time Zone(UTC-8): Saturday 8:00 am - Saturday 8:00 pm (12 hours)
+  2. Pacific Time Zone(UTC-8): Tuesday  8:00 pm - Wednesday 8:00 am (12 hours)
+
+```
+   # Login Info:
+   Email:    member-test@markviewer.com
+   Password: mypassword
+```
+
+
 
 ## Join Membership Steps
   1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
-     Click Paypal "Membership" Button to go to Paypal to apply, Memebership has 15 days trial period.
+     Click Paypal "Membership" Button to go to Paypal to apply, Memebership has 10 days trial period for free.
   2. After we recieve notice from Paypal if user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server. (This may take 5 minutes to 12 hours)
   3. Go to Markview Extension Option page, click "Membership Access" to sign in, after "Membership Access" button 
      turn Green, you are ready to use membership features.
@@ -65,7 +77,7 @@ fee is $10 (USD) for 6 months.
 ## Join Membership Here
 
 <div id="signup">
-    <h5><em>MarkView Membership Subscribe:</em> 15 days trial period for free, <br/>
+    <h5><em>MarkView Membership Subscribe:</em> 10 days trial period for free, <br/>
     (USD) $10/6months, payment handle by PayPal</h5>
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -74,6 +86,7 @@ fee is $10 (USD) for 6 months.
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+
 <br/><br/>
 </div>
 
