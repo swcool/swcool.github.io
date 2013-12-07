@@ -76,11 +76,13 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
 ### How To convert markdown document to slides:
   1. Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
 
+## More New Features for membership are coming ...
+
 ## Join Membership Here
 
 <div id="signup">
     <h5><em>MarkView Membership Subscribe:</em> 10 days trial period for free, <br/>
-    (USD) $10/6months, payment handle by PayPal</h5>
+    (USD) $10/6months, payment is handled by <a href="https://www.paypal.com/home" target="_blank">PayPal</a></h5>
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
