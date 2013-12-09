@@ -8,7 +8,7 @@ tags: [markdown, jekyll]
 ## Introduction
 Markview Memebership current has three execellent Features: **Custom Styling, Footnotes Support**, and **Slides Presentation.**  
 
-### Public Trial Schedule: Twice A week
+### Membership Features Public Trial Schedule without scription: Twice A week
   1. Pacific Time Zone(UTC-8): Saturday 8:00 am - Saturday 8:00 pm (12 hours)
   2. Pacific Time Zone(UTC-8): Tuesday  8:00 pm - Wednesday 8:00 am (12 hours)
 
@@ -18,7 +18,8 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
    Password: mypassword
 ```
 
-  Don't forget to try out sample test for each feature in below sections.
+##### Make sure 'Membership Access' button is Green before you use any membership features! 
+##### Don't forget to try out sample cases for each feature in below sections.
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/uNu-lhxo4Vc" frameborder="0" allowfullscreen></iframe>
 
@@ -32,9 +33,19 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
      turn Green, you are ready to use membership features.
   4. If you have any issues regarding membership process, send email to: contact@baiyunconsulting.com  
 
-**Make sure 'Membership Access' button is Green**  before you use any membership features! 
+### MarkView User can Join Membership Here
+<div id="signup">
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="QJMWAN87X9S78">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
+</div>
 
-## Custom Styling Feature
+## Membership Features
+
+### Custom Styling Feature
   1. Select checkbox "Use Custom Style" and click "Save My Options"
   2. Enter the style you like (css) below in textarea and save.
   3. Navigate to your markdown page
@@ -44,7 +55,7 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
     <a href="http://shaneweng.com/projects/markview/tests/sample-custom-style.md" target="_blank">Sample Online: Custom Styling</a>
   </div>
 
-## Footnotes Support Feature
+### Footnotes Support Feature
   1. Make sure UNcheck checkbox "Use Slide Style".
   2. Navigate to your markdown page.
   3. Click the browser action icon
@@ -53,7 +64,7 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
     <a href="http://shaneweng.com/projects/markview/tests/sample-footnotes.md" target="_blank">Sample Online: Footnotes Support</a>
   </div>
 
-### How To write footnotes:
+#### How To write footnotes:
   * Each footnote need to be in a separate line, start with 0 to 3 space ( less than 4 space).
 	Here is an example:
 
@@ -66,7 +77,7 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
 	```
 
 
-## Slides Presentation Feature
+### Slides Presentation Feature
   1. Select checkbox "Use Slide Style" and click "Save My Options"
   2. Navigate to your markdown page (file has "---" at the end to seperate each slide )
   3. Click the browser action icon
@@ -75,21 +86,10 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
     <a href="http://shaneweng.com/projects/markview/tests/sample-slides.md" target="_blank">Sample Online: Slides Presentation</a>
   </div>
 
-### How To convert markdown document to slides:
+#### How To convert markdown document to slides:
   1. Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
 
-## More New Features for membership are coming ...
-
-## Join Membership Here
-
-<div id="signup">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="QJMWAN87X9S78">
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-  </form>
-</div>
+### More New Features for membership are coming ...
 
 ## References
   1. [MarkView Free Version Features](http://shaneweng.com/blog/view-markdown-file-with-markview/)
