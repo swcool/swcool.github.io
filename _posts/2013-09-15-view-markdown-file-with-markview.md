@@ -137,7 +137,7 @@ raw.github.com because that subdomain only displays the source.
 Above Cheat Sheet is available through this
 [link](http://packetlife.net/media/library/16/Markdown.pdf)
 
-### Support MarkView as a free tool at Chrome Web Store  
+<!-- Support MarkView as a free tool at Chrome Web Store  
 <br/>
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -147,6 +147,7 @@ Above Cheat Sheet is available through this
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+-->
 
 ### Chrome Web Store Location
 
