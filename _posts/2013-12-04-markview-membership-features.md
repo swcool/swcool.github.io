@@ -83,17 +83,12 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
 ## Join Membership Here
 
 <div id="signup">
-    <h5><em>MarkView Membership Subscribe:</em> 10 days trial period for free, <br/>
-    (USD) $10/6months, payment is handled by <a href="https://www.paypal.com/home" target="_blank">PayPal</a></h5>
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="QJMWAN87X9S78">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<br/><br/>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="QJMWAN87X9S78">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
 </div>
 
 ## References
