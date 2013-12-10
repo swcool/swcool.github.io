@@ -1,8 +1,8 @@
 # MarkView
 ## Membership Features
 
-1. Custom Styling for markdown document
-2. Support footnotes
+1. Custom Styling for Markdown Document
+2. Support Footnotes<sup>1</sup> <em>&#8617;</em>
 3. Instant Presentation with Slides
 
 ---
