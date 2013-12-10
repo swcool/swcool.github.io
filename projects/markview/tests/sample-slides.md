@@ -42,7 +42,7 @@ Slide seperator also accept this `<hr>` and `<hr/>`
   * blackwhite
 
 ### Cool stuff Just try
-Markview Slide Display using **bespoke.js**
+Instant Presentation Slides Display
 
 <hr/>
 
