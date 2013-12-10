@@ -2,7 +2,7 @@
 ## Membership Features
 
 1. Custom Styling for Markdown Document
-2. Support Footnotes<sup>1</sup> <em>&#8617;</em>
+2. Support Footnotes<span style="color: red;"><sup>1</sup> <em>&#8617;</em></span>
 3. Instant Presentation with Slides
 
 ---
