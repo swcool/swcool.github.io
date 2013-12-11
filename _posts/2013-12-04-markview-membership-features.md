@@ -23,24 +23,6 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
 
 <a href="http://v.youku.com/v_show/id_XNjQ0Mzk5NDY0.html" target="_blank">Same Video on YouKu</a>
 
-## Join Membership Steps
-  1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
-     Click "Subscribe" Button to go to Paypal, Memebership has 10 days trial period for free, membership fee is $10 (USD) for 6 months.
-  2. After we recieve notice from Paypal when user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server.
-  3. Go to Markview Extension Option page, click "Membership Access" to sign in, after "Membership Access" button 
-     turn Green, you are ready to use membership features.
-  4. If you have any issues regarding membership process, send email to: contact@baiyunconsulting.com  
-
-### MarkView User can Join Membership Here
-<div id="signup">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="QJMWAN87X9S78">
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-  </form>
-</div>
-
 ## Membership Features
 
 ### Custom Styling Feature
@@ -88,6 +70,24 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
   1. Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
 
 ### More New Features for membership are coming ...
+
+## Join Membership Steps
+  1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
+     Click "Subscribe" Button to go to Paypal, Memebership has 10 days trial period for free, membership fee is $10 (USD) for 6 months.
+  2. After we recieve notice from Paypal when user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server.
+  3. Go to Markview Extension Option page, click "Membership Access" to sign in, after "Membership Access" button 
+     turn Green, you are ready to use membership features.
+  4. If you have any issues regarding membership process, send email to: contact@baiyunconsulting.com  
+
+### MarkView User can Join Membership Here
+<div id="signup">
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="QJMWAN87X9S78">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
+</div>
 
 ## References
   1. [MarkView Free Version Features](http://shaneweng.com/blog/view-markdown-file-with-markview/)
