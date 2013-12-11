@@ -8,9 +8,7 @@ tags: [markdown, jekyll]
 ## Introduction
 Markview Memebership current has three execellent Features: **Custom Styling, Footnotes Support**, and **Slides Presentation.**  
 
-**Membership Features Public Trial Schedule: Twice A week**  
-  1. Pacific Time Zone(UTC-8): Saturday 8:00 am - Saturday 8:00 pm (12 hours)  
-  2. Pacific Time Zone(UTC-8): Tuesday  8:00 pm - Wednesday 8:00 am (12 hours)
+**Membership Features Public Trial Schedule: Open Now, Try with login info**  
 
 ```
    # Login Info:
