@@ -16,7 +16,7 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
    Password: mypassword
 ```
 
-MarkView user can send email to contact@baiyunconsulting.com to receive membership trial period for 5 days.
+MarkView user also can send email to contact@baiyunconsulting.com to receive membership trial period for 5 days.
 
 ##### Make sure 'Membership Access' button is Green before you use any membership features! 
 ##### Don't forget to try out sample cases for each feature in below sections.
