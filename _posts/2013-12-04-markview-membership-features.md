@@ -8,15 +8,16 @@ tags: [markdown, jekyll]
 ## Introduction
 Markview Memebership current has three execellent Features: **Custom Styling, Footnotes Support**, and **Slides Presentation.**  
 
-**Membership Features Public Trial Schedule: Open Now, Try with login info**  
-
-```
-   # Login Info:
-   Email:    member-test@markviewer.com
-   Password: mypassword
-```
-
-MarkView user also can send email to contact@baiyunconsulting.com to receive membership trial period for 5 days.
+<div>
+  <p>Three Ways to try Membership Features for Free</p>
+  <ol>
+    <li>Use share testing account (instant) for Free: <br/>
+       <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;member-test@markviewer.com<br/>
+       password: &nbsp;mypassword </p></li>
+    <li>Send email to contact@baiyunconsulting.com to request membership 5 days trial period for Free.</li>
+    <li>Join Membership to get first 10 days trial period for Free</li>
+  </ol>
+</div>
 
 ##### Make sure 'Membership Access' button is Green before you use any membership features! 
 ##### Don't forget to try out sample cases for each feature in below sections.
