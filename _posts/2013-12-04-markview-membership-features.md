@@ -1,25 +1,25 @@
 ---
 layout: post
-title: "MarkView Membership Features"
+title: "MarkView Advance Features"
 category: blog
 tags: [markdown, jekyll]
 ---
 
 ## Introduction
-Markview Memebership current has three execellent Features: **Custom Styling, Footnotes Support**, and **Slides Presentation.**  
+Markview advance version current has three execellent Features: **Custom Styling, Footnotes Support**, and **Slides Presentation.**  
 
 <div>
-  <p>Three Ways to try Membership Features for Free</p>
+  <p>Three Ways to try Advance Features</p>
   <ol>
-    <li>Use share testing account (instant) for Free: <br/>
+    <li>Use share testing account (instant): <br/>
        <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;member-test@markviewer.com<br/>
        password: &nbsp;mypassword </p></li>
-    <li>Send email to contact@baiyunconsulting.com to request membership 5 days trial period for Free.</li>
-    <li>Join Membership to get first 10 days trial period for Free</li>
+    <li>Send email to contact@baiyunconsulting.com to request membership 5 days trial period.</li>
+    <li>Join Membership to get first 10 days trial period</li>
   </ol>
 </div>
 
-##### Make sure 'Membership Access' button is Green before you use any membership features! 
+##### Make sure 'Advance Access' button is Green before you use any membership features! 
 ##### Don't forget to try out sample cases for each feature in below sections.
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/uNu-lhxo4Vc" frameborder="0" allowfullscreen></iframe>
@@ -29,11 +29,15 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
 ## Membership Features
 
 ### Custom Styling Feature
-  1. Select checkbox "Use Custom Style" and click "Save My Options"
-  2. Enter the style you like (css) below in textarea and save.
-  3. Navigate to your markdown page
-  4. Click the browser action icon
-  5. Hey, CSS is injected!
+
+  - Add Theme CSS into Selection
+  - Add Code Style CSS into Selection
+  - Write CSS in this textarea and save
+    1. Select checkbox "Use Custom Style" and click "Save My Options"
+    2. Enter the style you like (css) below in textarea and save.
+    3. Navigate to your markdown page
+    4. Click the browser action icon
+
   <div>
     <a href="http://shaneweng.com/projects/markview/tests/sample-custom-style.md" target="_blank">Sample Online: Custom Styling</a>
   </div>
@@ -72,17 +76,16 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
 #### How To convert markdown document to slides:
   1. Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
 
-### More New Features for membership are coming ...
+### More New Advance Features are coming ...
 
-## Join Membership Steps
+## Access Advance Feature Steps
   1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
-     Click "Subscribe" Button to go to Paypal, Memebership has 10 days trial period for free, membership fee is $10 (USD) for 6 months.
+     Click "Subscribe" Button to go to Paypal subscribe Memebership. Membership has 10 days trial period for free, membership fee is $10 (USD) for 6 months.
   2. After we recieve notice from Paypal when user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server.
-  3. Go to Markview Extension Option page, click "Membership Access" to sign in, after "Membership Access" button 
-     turn Green, you are ready to use membership features.
-  4. If you have any issues regarding membership process, send email to: contact@baiyunconsulting.com  
+  3. Go to Markview Extension Option page, click "Advance Access" to sign in. After sign in successfully, refresh the options.html, you shoud see "Advance Access" button turn Green, you are ready to use Advance features.
+  4. If you have any issues regarding access advance features process, send email to: contact@baiyunconsulting.com  
 
-### MarkView User can Join Membership Here
+### MarkView User can Request Advance Features Access Here
 <div id="signup">
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick">
@@ -93,7 +96,7 @@ Markview Memebership current has three execellent Features: **Custom Styling, Fo
 </div>
 
 ## References
-  1. [MarkView Free Version Features](http://shaneweng.com/blog/view-markdown-file-with-markview/)
+  1. [MarkView Free Basic Version Features](http://shaneweng.com/blog/view-markdown-file-with-markview/)
   2. [MarkView Chrome Web Store](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)
 
 ---  
