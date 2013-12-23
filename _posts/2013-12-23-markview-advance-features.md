@@ -15,7 +15,7 @@ Markview advance version current has three execellent Features: **Custom Styling
        <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;member-test@markviewer.com<br/>
        password: &nbsp;mypassword </p></li>
     <li>Send email to contact@baiyunconsulting.com to request membership 5 days trial period.</li>
-    <li>Join Membership to get first 10 days trial period</li>
+    <li>Request Advance Features full access to get first 10 days trial period</li>
   </ol>
 </div>
 
@@ -26,7 +26,7 @@ Markview advance version current has three execellent Features: **Custom Styling
 
 <a href="http://v.youku.com/v_show/id_XNjQ0Mzk5NDY0.html" target="_blank">Same Video on YouKu</a>
 
-## Membership Features
+## Advance Features
 
 ### Custom Styling Feature
 
