@@ -31,9 +31,9 @@ Markview advance version current has three execellent Features: **Custom Styling
 ### Custom Styling Feature
 
   - Add Theme CSS into Selection
-    More markdown theme css files can see from [here](http://jasonm23.github.io/markdown-css-themes/), and [css source](https://github.com/jasonm23/markdown-css-themes) 
+    More markdown theme css files can be seen from [here](http://jasonm23.github.io/markdown-css-themes/), and [css source](https://github.com/jasonm23/markdown-css-themes) 
   - Add Code Style CSS into Selection
-    More code style css files can get from [here](http://highlightjs.org/static/test.html), and [css source](https://github.com/isagalaev/highlight.js)
+    More code style css files can be seen from [here](http://highlightjs.org/static/test.html), and [css source](https://github.com/isagalaev/highlight.js)
   - Write CSS in this textarea and save
     1. Select checkbox "Use Custom Style" and click "Save My Options"
     2. Enter the style you like (css) below in textarea and save.
