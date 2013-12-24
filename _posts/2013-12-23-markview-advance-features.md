@@ -8,25 +8,15 @@ tags: [markdown, jekyll]
 ## Introduction
 Markview advance version current has three execellent Features: **Custom Styling, Footnotes Support**, and **Slides Presentation.**  
 
-<div>
-  <p>Three Ways to try Advance Features</p>
-  <ol>
-    <li>Use share testing account (instant): <br/>
-       <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;member-test@markviewer.com<br/>
-       password: &nbsp;mypassword </p></li>
-    <li>Send email to contact@baiyunconsulting.com to request membership 5 days trial period.</li>
-    <li>Request Advance Features full access to get first 10 days trial period</li>
-  </ol>
-</div>
+### Options Page
 
-##### Make sure 'Advance Access' button is Green before you use any membership features! 
-##### Don't forget to try out sample cases for each feature in below sections.
+Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`  
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/uNu-lhxo4Vc" frameborder="0" allowfullscreen></iframe>
-
-<a href="http://v.youku.com/v_show/id_XNjQ0Mzk5NDY0.html" target="_blank">Same Video on YouKu</a>
+![MarkView Options Page](/assets/images/options-v210.png)
 
 ## Advance Features
+
+![MarkView Advance Features](/assets/images/adv-v210.png)
 
 ### Custom Styling Feature
 
@@ -86,6 +76,20 @@ Markview advance version current has three execellent Features: **Custom Styling
   2. After we recieve notice from Paypal when user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server.
   3. Go to Markview Extension Option page, click "Advance Access" to sign in. After sign in successfully, refresh the options.html, you shoud see "Advance Access" button turn Green, you are ready to use Advance features.
   4. If you have any issues regarding access advance features process, send email to: contact@baiyunconsulting.com  
+
+### Three Free Ways to try Advance Features
+<div>
+  <ol>
+    <li>Use share testing account (instant): <br/>
+       <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;member-test@markviewer.com<br/>
+       password: &nbsp;mypassword </p></li>
+    <li>Send email to contact@baiyunconsulting.com to request membership 5 days trial period.</li>
+    <li>Request Advance Features full access to get first 10 days trial period</li>
+  </ol>
+</div>
+
+##### Make sure 'Advance Access' button is Green before you use any membership features! 
+##### Don't forget to try out sample cases for each feature in below sections.
 
 ### Request Advance Features Access Here
 <div id="signup">
