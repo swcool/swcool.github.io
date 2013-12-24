@@ -157,7 +157,7 @@ Above Cheat Sheet is available through this
 
 ### References  
 
-- For MarkView Membership Features, [click here](http://shaneweng.com/blog/markview-membership-features/)
+- For MarkView Advance Features, [click here](http://shaneweng.com/blog/markview-advance-features/)
 - About Markdown, see [project
   site](http://daringfireball.net/projects/markdown/)  
 - [Github Flavored
