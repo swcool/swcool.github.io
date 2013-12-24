@@ -87,7 +87,7 @@ Markview advance version current has three execellent Features: **Custom Styling
   3. Go to Markview Extension Option page, click "Advance Access" to sign in. After sign in successfully, refresh the options.html, you shoud see "Advance Access" button turn Green, you are ready to use Advance features.
   4. If you have any issues regarding access advance features process, send email to: contact@baiyunconsulting.com  
 
-### MarkView User can Request Advance Features Access Here
+### Request Advance Features Access Here
 <div id="signup">
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick">
