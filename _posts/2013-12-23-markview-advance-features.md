@@ -76,11 +76,11 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 ### Free to try Advance Features
 <div>
   <h4>Use test account to get instant access: </h4>
-  <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;member-test@markviewer.com<br/>
+  <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;guest@markviewer.com<br/>
   password: &nbsp;mypassword </p>
 </div>
 
-##### Make sure 'Advance Access' button is Green before you use any membership features! 
+##### Make sure 'Advance Access' button is Green before you use any advance features! 
 ##### Don't forget to try out sample cases for each feature.
 
 ### Request Advance Features Full Access Here
