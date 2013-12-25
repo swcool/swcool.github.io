@@ -70,28 +70,20 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 
 ### More New Advance Features are coming ...
 
-## Access Advance Feature Steps
-  1. In Markview extension [option page](chrome-extension://ckaohobfbknbdldnafchijkpmfkncdml/options.html), 
-     Click "Subscribe" Button to go to Paypal subscribe Memebership. Membership has 10 days trial period for free, membership fee is $10 (USD) for 6 months.
-  2. After we recieve notice from Paypal when user sign up the membership plan successfully, we will send user email to let he/she sign in Markview Service Server.
-  3. Go to Markview Extension Option page, click "Advance Access" to sign in. After sign in successfully, refresh the options.html, you shoud see "Advance Access" button turn Green, you are ready to use Advance features.
-  4. If you have any issues regarding access advance features process, send email to: contact@baiyunconsulting.com  
+## Access Advance Feature
+  If you have any issues regarding access advance features process, send email to: contact@baiyunconsulting.com
 
-### Three Free Ways to try Advance Features
+### Free to try Advance Features
 <div>
-  <ol>
-    <li>Use share testing account (instant): <br/>
-       <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;member-test@markviewer.com<br/>
-       password: &nbsp;mypassword </p></li>
-    <li>Send email to contact@baiyunconsulting.com to request membership 5 days trial period.</li>
-    <li>Request Advance Features full access to get first 10 days trial period</li>
-  </ol>
+  <h4>Use test account to get instant access: </h4>
+  <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;member-test@markviewer.com<br/>
+  password: &nbsp;mypassword </p>
 </div>
 
 ##### Make sure 'Advance Access' button is Green before you use any membership features! 
-##### Don't forget to try out sample cases for each feature in below sections.
+##### Don't forget to try out sample cases for each feature.
 
-### Request Advance Features Access Here
+### Request Advance Features Full Access Here
 <div id="signup">
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick">
