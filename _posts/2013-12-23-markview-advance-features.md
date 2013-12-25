@@ -80,8 +80,8 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
   password: &nbsp;mypassword </p>
 </div>
 
-##### Make sure 'Advance Access' button is Green before you use any advance features! 
-##### Don't forget to try out sample cases for each feature.
+##### Make sure 'Advance Access' button is Green before using advance features! 
+##### Don't forget to try sample cases online for each feature.
 
 ### Request Advance Features Full Access Here
 <div id="signup">
