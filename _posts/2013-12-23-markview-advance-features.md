@@ -5,20 +5,20 @@ category: blog
 tags: [markdown, jekyll]
 ---
 
-## Introduction
+### Introduction
 MarkView advance version current has three excellent Features: **Custom Styling, Footnotes Support**, and **Slides Presentation.**  
 
-### Options Page
+#### Options Page
 
 Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`  
-
+<br/>
 ![MarkView Options Page](/assets/images/options-v210.png)
-
-## Advance Features
+<br/>
+### Advance Features
 
 ![MarkView Advance Features](/assets/images/adv-v210.png)
 
-### Custom Styling Feature
+#### Custom Styling Feature
 
   - Add Theme CSS into Selection  
     More markdown theme css files can be seen from [here](http://jasonm23.github.io/markdown-css-themes/), and [css source](https://github.com/jasonm23/markdown-css-themes) 
@@ -34,7 +34,7 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
     <a href="http://shaneweng.com/projects/markview/tests/sample-custom-style.md" target="_blank">Sample Online: Custom Styling</a>
   </div>
 
-### Footnotes Support Feature
+#### Footnotes Support Feature
   1. Make sure UNcheck checkbox "Use Slide Style".
   2. Navigate to your markdown page.
   3. Click the browser action icon
@@ -43,7 +43,7 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
     <a href="http://shaneweng.com/projects/markview/tests/sample-footnotes.md" target="_blank">Sample Online: Footnotes Support</a>
   </div>
 
-#### How To write footnotes:
+##### How To write footnotes:
   * Each footnote need to be in a separate line, start with 0 to 3 space ( less than 4 space).
 	Here is an example:
 
@@ -56,7 +56,7 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 	```
 
 
-### Slides Presentation Feature
+#### Slides Presentation Feature
   1. Select checkbox "Use Slide Style" and click "Save My Options"
   2. Navigate to your markdown page (file has "---" at the end to seperate each slide )
   3. Click the browser action icon
@@ -65,25 +65,26 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
     <a href="http://shaneweng.com/projects/markview/tests/sample-slides.md" target="_blank">Sample Online: Slides Presentation</a>
   </div>
 
-#### How To convert markdown document to slides:
+##### How To convert markdown document to slides:
   1. Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
 
-### More New Advance Features are coming ...
+#### More New Advance Features are coming ...
 
-## Access Advance Feature
+<br/>
+
+### Access Advance Features
   If you have any issues regarding access advance features process, send email to: contact@baiyunconsulting.com
 
-### Free to try Advance Features
+#### Public Account to Access Advance Features
 <div>
-  <h4>Use test account to get instant access: </h4>
   <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;guest@markviewer.com<br/>
   password: &nbsp;mypassword </p>
 </div>
 
-##### Make sure 'Advance Access' button is Green before using advance features! 
-##### Don't forget to try sample cases online for each feature.
+<p> Refresh page to make sure 'Advance Access' button is Green before using advance features! </p>
+<p> Don't forget to try sample cases online for each feature.</p><br/>
 
-### Request Advance Features Full Access Here
+#### Request Advance Features Full Access Here
 <div id="signup">
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick">
@@ -92,8 +93,8 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
   <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
   </form>
 </div>
-
-## References
+<br/>
+### References
   1. [MarkView Free Basic Version Features](http://shaneweng.com/blog/view-markdown-file-with-markview/)
   2. [MarkView Chrome Web Store](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)
 
