@@ -73,7 +73,6 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 <br/>
 
 ### Access Advance Features
-  If you have any issues regarding access advance features process, send email to: contact@baiyunconsulting.com
 
 #### Public Account to Access Advance Features
 <div>
@@ -81,21 +80,12 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
   password: &nbsp;mypassword </p>
 </div>
 
-<p> Refresh page to make sure 'Advance Access' button is Green before using advance features! </p>
-<p> Don't forget to try sample cases online for each feature.</p><br/>
+- Refresh options page to make sure 'Advance Access' button is Green before using advance features! 
+- Don't forget to try sample cases online for each feature. 
+- If you have any issues regarding access advance features process, send email to: contact@baiyunconsulting.com
 
-#### Request Advance Features Full Access Here
-<div id="signup">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="QJMWAN87X9S78">
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-  </form>
-</div>
-<br/>
 ### References
-  1. [MarkView Free Basic Version Features](http://shaneweng.com/blog/view-markdown-file-with-markview/)
+  1. [MarkView Basic Features Version](http://shaneweng.com/blog/view-markdown-file-with-markview/)
   2. [MarkView Chrome Web Store](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)
 
 ---  
