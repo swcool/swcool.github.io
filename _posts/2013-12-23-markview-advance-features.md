@@ -76,6 +76,8 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 
 #### Public Account to Access Advance Features
 <div>
+  click 'Advance Access' button, when asked for login, enter:
+  <br/><br/>
   <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;guest@markviewer.com<br/>
   password: &nbsp;mypassword </p>
 </div>
