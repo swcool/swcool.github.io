@@ -162,6 +162,5 @@ Above Cheat Sheet is available through this
   site](http://daringfireball.net/projects/markdown/)  
 - [Github Flavored
   Markdown](https://help.github.com/articles/github-flavored-markdown)  
-- Note: Markview code is private, will not be posted in public.
 
 {% include analytics.html %}
