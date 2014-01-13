@@ -155,7 +155,6 @@ Above Cheat Sheet is available through this
 
 - Report: [Any Suggestions](https://chrome.google.com/webstore/support/iaddkimmopgchbbnmfmdcophmlnghkim?hl=en&gl=US#bug)
 
-<hr/>
 
 ### References  
 
