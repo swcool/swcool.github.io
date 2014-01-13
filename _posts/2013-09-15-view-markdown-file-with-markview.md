@@ -155,6 +155,8 @@ Above Cheat Sheet is available through this
 
 - Report: [Any Suggestions](https://chrome.google.com/webstore/support/iaddkimmopgchbbnmfmdcophmlnghkim?hl=en&gl=US#bug)
 
+<hr/>
+
 ### References  
 
 - For MarkView Advance Features, [click here](http://shaneweng.com/blog/markview-advance-features/)
