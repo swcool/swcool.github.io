@@ -12,9 +12,18 @@ MarkView advance version current has three excellent Features: **Custom Styling,
 
 Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`  
 <br/>
-![MarkView Options Page](/assets/images/options-v210.png)
+![MarkView Options Page](/assets/images/options-v221.png)
 <br/>
 ### Advance Features
+
+#### Awesome Markdown Editor
+![Awesome Markdown Editor](/assets/images/editor-v221.png)
+
+  - WYSIWYG Markdown editor: What you see is what you get
+  - Easy to use: edit area and preview area side by side, instant update
+  - Auto-save editing document inside browser by every 10 seconds.
+  - Be able to open file from local disk and save(download) file to local disk.
+  - Both editor and preview have syntax highlight, editor also show line number, fold/unfold ability.
 
 ![MarkView Advance Features](/assets/images/adv-v210.png)
 
