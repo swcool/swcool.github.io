@@ -29,6 +29,9 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
     1. Go to optiongs.html -> click "Advance Access" and input login info. 
     2. Refresh optiongs.html page to see "Advance Access" turn Green, then click "Open Markdown Editor".
 
+  <div><a href="http://shaneweng.com/projects/markview/tests/sample-editor.md" target="_blank">Sample Online: Editor Startup File</a>
+  </div>
+
 <br/>
 ![MarkView Advance Features](/assets/images/adv-v210.png)
 
