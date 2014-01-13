@@ -18,6 +18,7 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 
 #### Awesome Markdown Editor
 ![Awesome Markdown Editor](/assets/images/editor-v221.png)
+<br/><br/>
 
   - WYSIWYG Markdown editor: What you see is what you get
   - Easy to use: edit area and preview area side by side, instant update
@@ -25,6 +26,7 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
   - Be able to open file from local disk and save(download) file to local disk.
   - Both editor and preview have syntax highlight, editor also show line number, fold/unfold ability.
 
+<br/>
 ![MarkView Advance Features](/assets/images/adv-v210.png)
 
 #### Custom Styling Feature
