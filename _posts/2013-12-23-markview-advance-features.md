@@ -25,6 +25,9 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
   - Auto-save editing document inside browser by every 10 seconds.
   - Be able to open file from local disk and save(download) file to local disk.
   - Both editor and preview have syntax highlight, editor also show line number, fold/unfold ability.
+  - **Usage:** 
+    1. Go to optiongs.html -> click "Advance Access" and input login info. 
+    2. Refresh optiongs.html page to see "Advance Access" turn Green, then click "Open Markdown Editor".
 
 <br/>
 ![MarkView Advance Features](/assets/images/adv-v210.png)
