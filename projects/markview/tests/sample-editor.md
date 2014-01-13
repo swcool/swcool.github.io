@@ -17,8 +17,8 @@
   ```
 
 * Image  
-  ![MarkView](http://shaneweng.com/assests/images/icon.png)  
-
+  ![MarkView](http://shaneweng.com/assets/images/icon.png)  
+ls
 * Table
 
 |   Tables      | Are             | Cool   |
