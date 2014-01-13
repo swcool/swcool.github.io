@@ -17,7 +17,7 @@
   ```
 
 * Image  
-  ![MarkView](./images/favicon.png)  
+  ![MarkView](http://shaneweng.com/assests/images/icon.png)  
 
 * Table
 
