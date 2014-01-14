@@ -6,7 +6,9 @@ tags: [markdown, jekyll, markview]
 ---
 
 ## 关于 MarkView
-MarkView中文意思是“标记显示”，就是使用者在原文做个标记符号，如"#", "##", "~~删除~~"或"- - -"，在浏览器里会鲜明的表达显示，非常实用和高效。
+MarkView中文意思是“标记显示”，就是使用者在原文做个标记符号，如"#", "##", "~~删除~~"或"- - -"，在浏览器里会鲜明的表达显示，非常实用和高效。  
+
+![MarkView Editor: Chinese](/assets/images/editor-v224-cn.png)
 
 ## 使用MarkView
 1. 安装 [产品地址](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)
@@ -75,7 +77,7 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 
 	|   表格         |    显示        | 美观    |
 	| ------------- | :------------- | -----: |
-	| **第一栏**     | 居中           | $100    |
+	| **第一栏**     | 居中           | $100   |
 	| `第二栏`       | 向左看齐        | $1600  |
 	| 第三栏         | 向右看齐        | $12    |
 	| 每行斑马线显示  | 很漂亮          | $1     |
