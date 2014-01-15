@@ -35,11 +35,11 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 
 * 代码区
 
-```ruby  
-def test
-  puts 'hi'
-end
-```
+  ```ruby  
+    def test
+      puts 'hi'
+    end
+  ```
 
 * 贴图片  
   ![MarkView](https://raw.github.com/swcool/swcool.github.io/master/assets/images/icon.png)  
