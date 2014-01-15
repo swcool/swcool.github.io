@@ -92,3 +92,5 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 - [维基百科: Markdown](http://zh.wikipedia.org/wiki/Markdowns)  
 - [MarkView英文说明：基楚版](http://shaneweng.com/blog/view-markdown-file-with-markview/)  
 - [MarkView英文说明：高级版](http://shaneweng.com/blog/markview-advance-features/)
+
+{% include analytics.html %}
