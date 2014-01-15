@@ -88,3 +88,5 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 	| 每行斑马线显示  | 很漂亮          | $1     |
 
 
+## 参考资料
+- [维基百科: Markdown](http://zh.wikipedia.org/wiki/Markdown)
