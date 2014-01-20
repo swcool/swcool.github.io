@@ -14,10 +14,24 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 <br/>
 ![MarkView Options Page](/assets/images/options-v221.png)
 <br/>
-### Advance Features
 
-#### Awesome Markdown Editor
-![Awesome Markdown Editor](/assets/images/editor-v221.png)
+### Access Advanced Features
+
+#### Public Account for Advanced Feature Access
+<div>
+  click 'Advanced Feature Access' button, when asked for login, enter:
+  <br/><br/>
+  <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;guest@markviewer.com<br/>
+  password: &nbsp;mypassword </p>
+
+  <p>Login page will <strong>Close Automatically</strong> after login sucessfully. Refresh this options page to make sure 'Advanced Feature Access' button is <strong>Green</strong> before using advanced features!</p>
+  <p>If you have any questions regarding to the process of advanced feature access, send email to: contact@baiyunconsulting.com</p>
+</div>
+
+### Advanced Features
+
+#### 1. Visual Markdown Editor
+![Visual Markdown Editor](/assets/images/editor-v221.png)
 <br/><br/>
 
   - WYSIWYG Markdown editor: What you see is what you get
@@ -33,9 +47,9 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
   </div>
 
 <br/>
-![MarkView Advance Features](/assets/images/adv-v210.png)
+![MarkView Advanced Features](/assets/images/adv-v210.png)
 
-#### Custom Styling Feature
+#### 2. Custom Styling Feature
 
   - Add Theme CSS into Selection  
     More markdown theme css files can be seen from [here](http://jasonm23.github.io/markdown-css-themes/), and [css source](https://github.com/jasonm23/markdown-css-themes) 
@@ -51,7 +65,7 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
     <a href="http://shaneweng.com/projects/markview/tests/sample-custom-style.md" target="_blank">Sample Online: Custom Styling</a>
   </div>
 
-#### Footnotes Support Feature
+#### 3. Footnotes Support Feature
   1. Make sure UNcheck checkbox "Use Slide Style".
   2. Navigate to your markdown page.
   3. Click the browser action icon
@@ -73,7 +87,7 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 	```
 
 
-#### Slides Presentation Feature
+#### 4. Slides Presentation Feature
   1. Select checkbox "Use Slide Style" and click "Save My Options"
   2. Navigate to your markdown page (file has "---" at the end to seperate each slide )
   3. Click the browser action icon
@@ -85,23 +99,9 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 ##### How To convert markdown document to slides:
   1. Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
 
-#### More New Advance Features are coming ...
+#### More New Advanced Features are coming ...
 
 <br/>
-
-### Access Advance Features
-
-#### Public Account to Access Advance Features
-<div>
-  click 'Advance Access' button, when asked for login, enter:
-  <br/><br/>
-  <p style="margin-left: 50px">email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;guest@markviewer.com<br/>
-  password: &nbsp;mypassword </p>
-</div>
-
-- Refresh options page to make sure 'Advance Access' button is Green before using advance features! 
-- Don't forget to try sample cases online for each feature. 
-- If you have any issues regarding access advance features process, send email to: contact@baiyunconsulting.com
 
 ### References
   1. [MarkView Basic Features Version](http://shaneweng.com/blog/view-markdown-file-with-markview/)
