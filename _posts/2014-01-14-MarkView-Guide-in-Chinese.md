@@ -10,15 +10,20 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 
 ![MarkView Editor: Chinese](/assets/images/editor-v224-cn.png)
 
-## 使用MarkView
+## 安装 MarkView
 1. 安装 <a href="https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim" target="_blank">产品地址</a>
 2. 安装后到 使用地址 `chrome://extensions/` 找到MarkView ![MarkView](https://raw.github.com/swcool/swcool.github.io/master/assets/images/icon.png), 选取“Enable” 和 “Allow access to file URLs”, 然后点击“Options”
-3. 在[Options设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html):
-  1. 点击"Advance Acsess", 会跳出页面要求email和密码，分别输入`guest@markviewer.com` 和 `mypassword`， 然后点击”Sign in“登录. 登录页面会关闭，请回到[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)
-  2. 在[Options设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html),
-  涮新页面，"Advance Acsess"会显示绿色，然后点击"Open Markdown Editor" 进入文件编辑器。
-  3. 在文件编辑器里，左边是编辑区，右边是浏览器的显示结果。用户可将右边显示结果复制到自己email里发出去。
-  4. 以下是例子说明，用户可复制到左边编辑区里，然后看到右边的显示结果。
+
+## 使用高级功能
+在[Options设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html):
+  点击"Advanced Feature Acsess", 会跳出页面要求email和密码，分别输入`guest@markviewer.com` 和 `mypassword`， 然后点击”Sign in“登录. 登录页面会关闭，请回到[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)
+
+### 使用编辑器
+
+1. 在[Options设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html),
+涮新页面，"Advance Acsess"会显示绿色，然后点击"Open Markdown Editor" 进入文件编辑器。
+2. 在文件编辑器里，左边是编辑区，右边是浏览器的显示结果。用户可将右边显示结果复制到自己email里发出去。
+3. 以下是例子说明，用户可复制到左边编辑区里，然后看到右边的显示结果。
 
 ## 例子说明: 即写即现
 > 左边写什么右边就显示什么  
@@ -53,7 +58,7 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 | 第三栏         | 向右看齐        | $12    |
 | 每行斑马线显示  | 很清楚          | $1     |
 
-## 例子原文
+#### 例子原文
 
 	## 例子说明: 即写即现
 	> 左边写什么右边就显示什么  
@@ -91,6 +96,6 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 ## 参考资料
 - [维基百科: Markdown](http://zh.wikipedia.org/wiki/Markdown)  
 - [MarkView英文说明：基楚版](http://shaneweng.com/blog/view-markdown-file-with-markview/)  
-- [MarkView英文说明：高级版](http://shaneweng.com/blog/markview-advance-features/)
+- [MarkView英文说明：高级版](http://shaneweng.com/blog/markview-advanced-features/)
 
 {% include analytics.html %}
