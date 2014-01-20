@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MarkView Advance Features"
+title: "MarkView Advanced Features"
 category: blog
 tags: [markdown, jekyll]
 ---
