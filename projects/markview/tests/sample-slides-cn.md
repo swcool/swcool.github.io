@@ -1,12 +1,9 @@
-# MarkView  ![MarkView](https://raw.github.com/swcool/swcool.github.io/master/assets/images/icon.png)
-## Advanced Features
-1. Visual Markdown Editor
+# 标记显示
+## 高级功能
+
+1. Custom Styling for Markdown Document
 2. Support Footnotes<span style="color: red;"><sup>1</sup> <em>&#8617;</em></span>
-3. Instant Slides Presentation
-4. Document Custom Styling:
-  - Add Theme CSS and Select
-  - Add Code Style and Select
-  - Write CSS, Save and Run
+3. Instant Presentation with Slides
 
 ---
 
@@ -44,21 +41,21 @@ Slide seperator also accept this `<hr>` and `<hr/>`
   * concave 
   * blackwhite
 
-### Cool Stuff, Just Try
+### Cool stuff, Just Try
 Instant Presentation Slides Display
 
 <hr/>
 
-## Image embeded, Great Snapshot!
-
-![MarkView Editor](https://raw.github.com/swcool/swcool.github.io/master/assets/images/editor-v221.png)
+## Image embeded, Great SnapShot!
+![MarkView Editor](/assets/images/editor-v224-cn.png)
+[ocean](http1://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg)
 
 ---  
-<br/>
+
 ## Another way to display image! 
 
 <p align="center">
-<img src="https://raw.github.com/swcool/swcool.github.io/master/assets/images/editor-v221.png", style="width: 500px;"/>
+<img src="http://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg", style="width: 500px;"/>
 </p>
 
 Don't forget to put "---" or `<hr/>` at the end of each slide
