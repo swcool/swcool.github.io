@@ -90,8 +90,8 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 #### 4. Slides Presentation Feature
   1. Select checkbox "Use Slide Style" and click "Save My Options"
   2. Navigate to your markdown page (file has "---" at the end to seperate each slide )
-  3. Click the browser action icon
-  4. Hey, slides are presented!
+  3. Click the browser action icon, Slides will show up.
+  4. Use keyboard's ^ and v to select slides themes, use > and < to go through each slide.
   <div>
     <a href="http://shaneweng.com/projects/markview/tests/sample-slides.md" target="_blank">Sample Online: Slides Presentation</a>
   </div>
@@ -104,8 +104,9 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 <br/>
 
 ### References
-  1. [MarkView Basic Features Version](http://shaneweng.com/blog/view-markdown-file-with-markview/)
-  2. [MarkView Chrome Web Store](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)
+  1. [MarkView Chrome Web Store](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)  
+  2. [MarkView Basic Features Version](http://shaneweng.com/blog/view-markdown-file-with-markview/)
+  3. [MarkView User's Guide in Chinese 中文说明](http://shaneweng.com/blog/MarkView-Guide-in-Chinese/)
 
 ---  
 
