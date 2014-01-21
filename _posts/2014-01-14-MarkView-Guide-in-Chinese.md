@@ -106,7 +106,9 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 2. 在Chrome浏览器的网址栏输入markdown格式的投影片文件地址，让该文显示在浏览器里。
 3. 然后点击浏览器上的“MarkView”按钮，这样投影片的形式会显示出来。
 
-    **线上测试样版**：[投影简报](http://shaneweng.com/projects/markview/tests/sample-slides-cn.md)
+  <div>
+    <a href="http://shaneweng.com/projects/markview/tests/sample-slides-cn.md" target="_blank">线上测试样版： 投影简报</a>
+  </div>
 
 #### 制作投影片
 1. 用Markdown的格式写文档，并以".md"为文件后缀(扩展名).
