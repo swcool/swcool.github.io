@@ -19,7 +19,7 @@
 
 ---
 
-## Code Syntax Highligh
+## Code Syntax Highlight
 
 <h3> This is cool</h3>
 
