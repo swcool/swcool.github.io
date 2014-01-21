@@ -27,9 +27,9 @@
 
 ```ruby
 def test
-  puts "hi, Test 1  This is what I am" + 
-  "looking for! Test 1  This" + 
-  "is what I am looking for!";
+  puts "这个样版不错" + 
+  "标记显示器功能挺多" + 
+  "非常好用的工具!";
 end
 ```  
 
