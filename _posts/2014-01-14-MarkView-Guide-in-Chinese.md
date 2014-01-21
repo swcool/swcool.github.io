@@ -21,7 +21,7 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 
 2.  请回到[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)， 涮新页面，"Advanced Feature Acsess"会显示**绿色**。
 
-### 使用编辑器
+### 1. 编辑器
 
 1. 确认"Advanced Feature Acsess"显示**绿色**，然后点击"Open Markdown Editor" 进入文件编辑器。
 2. 在文件编辑器里，左边是编辑区，右边是浏览器的显示结果。用户可将右边显示结果复制到自己email里发出去。
@@ -98,7 +98,7 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 
 - - -
 
-### 投影片 
+### 2. 投影片 
 ![MarkView Slides](/assets/images/adv-v210.png)
 
 #### 使用步骤
