@@ -1,5 +1,5 @@
-## 标记显示器 ![MarkView](https://raw.github.com/swcool/swcool.github.io/master/assets/images/icon.png)
-### 高级功能
+# 标记显示器 ![MarkView](https://raw.github.com/swcool/swcool.github.io/master/assets/images/icon.png)
+## 高级功能
 1. 可视化标记编辑器
 2. 支持脚本注解<span style="color: red;"><sup>1</sup> <em>&#8617;</em></span>
 3. 即时投影展示
