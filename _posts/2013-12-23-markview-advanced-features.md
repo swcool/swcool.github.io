@@ -6,13 +6,13 @@ tags: [markdown, jekyll]
 ---
 
 ### Introduction
-MarkView advance version current has three excellent Features: **Custom Styling, Footnotes Support**, and **Slides Presentation.**  
+MarkView advanced version current has FOUR excellent Features: **Visual Editor**, **Custom Styling**, **Footnotes Support**, and **Slides Presentation.**  
 
 #### Options Page
 
 Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`  
 <br/>
-![MarkView Options Page](/assets/images/options-v221.png)
+![MarkView Options Page](/assets/images/options.png)
 <br/>
 
 ### Access Advanced Features
