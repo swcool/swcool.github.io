@@ -49,6 +49,7 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 <br/>
 
 ![MarkView Advanced Features](/assets/images/slides.png)
+<br/>
 
 #### 2. Custom Styling Feature
 
