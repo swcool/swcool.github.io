@@ -50,7 +50,7 @@ end
 <hr/>
 
 ## 图像镶嵌，很棒的快照！
-![标记显示器：编辑器](https://raw.github.com/swcool/swcool.github.io/master/assets/images/editor-v221.png)
+![标记显示器：编辑器](https://raw.github.com/swcool/swcool.github.io/master/assets/images/editor-v224-cn.png)
 
 
 ---  
@@ -58,7 +58,7 @@ end
 ## 另一种显示图像的方式! 
 
 <p align="center">
-<img src="https://raw.github.com/swcool/swcool.github.io/master/assets/images/editor-v221.png", style="width: 500px;"/>
+<img src="https://raw.github.com/swcool/swcool.github.io/master/assets/images/editor-v224-cn.png", style="width: 500px;"/>
 </p>
 
 不要忘了把 "---" 或者 `<hr/>` 放在每个投影片的最后一行
