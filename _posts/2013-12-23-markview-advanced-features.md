@@ -94,6 +94,8 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
   2. Navigate to your markdown page (file has "---" at the end to seperate each slide )
   3. Click the browser action icon, Slides will show up.
   4. Use keyboard's ^ and v to select slides themes, use > and < to go through each slide.
+  5. Full Presentation Mode: Chrome -> View -> Enter Presentation Mode
+
   <div>
     <a href="http://shaneweng.com/projects/markview/tests/sample-slides.md" target="_blank">Sample Online: Slides Presentation</a>
   </div>
