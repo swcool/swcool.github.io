@@ -98,23 +98,23 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 
 - - -
 
-### 2. 展示投影片 
+### 2. 展示演示片 
 ![MarkView Slides](/assets/images/slides-cn-v211.png)
 
 #### 使用步骤
 1. 在[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)，选择“Use Slide Style"后点击“Save My Options"  
-2. 在Chrome浏览器的网址栏输入markdown格式的投影片文件地址，让该文显示在浏览器里。
-3. 然后点击浏览器上的“MarkView”按钮，这样投影片的形式会显示出来。
-4. 用电脑键盘的上^下v键来选择投影展示格式，用左<右>键来浏览投影片
-5. 进入全投影展示： Chrome->视图(View)->进入演示模式(Enter Presentation Mode)
+2. 在Chrome浏览器的网址栏输入markdown格式的演示片文件地址，让该文显示在浏览器里。
+3. 然后点击浏览器上的“MarkView”按钮，这样演示片的形式会显示出来。
+4. 用电脑键盘的上^下v键来选择演示展示格式，用左<右>键来浏览演示片
+5. 进入全演示展示： Chrome->视图(View)->进入演示模式(Enter Presentation Mode)
 
   <div>
-    <a href="http://shaneweng.com/projects/markview/tests/sample-slides-cn.md" target="_blank">线上测试样版： 投影简报</a>
+    <a href="http://shaneweng.com/projects/markview/tests/sample-slides-cn.md" target="_blank">线上测试样版： 演示简报</a>
   </div>
 
-#### 制作投影片
+#### 制作演示片
 1. 用Markdown的格式写文档，并以".md"为文件后缀(扩展名).
-2. 投影片之间用"---"来隔开，记得将"---"放在每个投影片的最后一行。
+2. 演示片之间用"---"来隔开，记得将"---"放在每个强调片的最后一行。
 
 
 ## 参考资料
