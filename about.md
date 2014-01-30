@@ -15,7 +15,7 @@ I am Shane Weng, a Software developer from Silicon Valley, California.
 
 - MarkView: Markdown Editor and Viewer in Browser. [View in Web
   Store](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)
-- Lite: a clean, light, and pretty way to build a simple web site! [View on Github](https://github.com/swcool/lite)
+- Lite: A Clean, Light and Pretty Way to Build A Simple Web Site! [View on Github](https://github.com/swcool/lite)
 
 ### Software I use
 
