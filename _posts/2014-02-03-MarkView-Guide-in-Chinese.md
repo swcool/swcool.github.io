@@ -102,7 +102,8 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 ![MarkView Slides](/assets/images/slides-cn-v211.png)
 
 #### 使用步骤
-1. 在[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)，选择“Use Slide Style"后点击“Save My Options"  
+1.
+在[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)，选择“Apply Slide Format"后点击“Save Options"  
 2. 在Chrome浏览器的网址栏输入markdown格式的演示片文件地址，让该文显示在浏览器里。
 3. 然后点击浏览器上的“MarkView”按钮，这样演示片的形式会显示出来。
 4. 用电脑键盘的上^下v键来选择演示展示格式，用左<右>键来浏览演示片
