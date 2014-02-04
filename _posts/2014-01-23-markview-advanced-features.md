@@ -90,7 +90,7 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
 
 
 #### 4. Slides Presentation Feature
-  1. Select checkbox "Use Slide Style" and click "Save My Options"
+  1. Select checkbox "Apply Slide Format" and click "Save Options"
   2. Navigate to your markdown page (file has "---" at the end to seperate each slide )
   3. Click the browser action icon, Slides will show up.
   4. Use keyboard's ^ and v to select slides themes, use > and < to go through each slide.
