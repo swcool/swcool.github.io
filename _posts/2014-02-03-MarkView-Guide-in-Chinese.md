@@ -6,9 +6,9 @@ tags: [markdown, jekyll, markview]
 ---
 
 ## 关于 MarkView
-MarkView中文意思是“标记显示”，就是使用者在原文做个标记符号，如"#", "##", "~~删除~~"或"- - -"，在浏览器里会鲜明地显示表达含意，非常实用和高效。  
+MarkView中文意思是“标记显示”，就是使用者在原文做个标记符号，如"#", "##", "~~删除~~"或"- - -"，在浏览器里会鲜明地显示表达含意，非常实用和高效。
 
-![MarkView Editor: Chinese](/assets/images/editor-v224-cn.png)
+<embed src="http://player.youku.com/player.php/sid/XNjY5MzgxNTM2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
 ## 安装 MarkView
 1. 安装 <a href="https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim" target="_blank">产品地址</a>
@@ -22,6 +22,8 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 2.  请回到[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)， 涮新页面，"Advanced Feature Acsess"会显示**绿色**。
 
 ### 1. 使用编辑器
+
+![MarkView Editor: Chinese](/assets/images/editor-v224-cn.png)
 
 1. 确认"Advanced Feature Acsess"显示**绿色**，然后点击"Open Markdown Editor" 进入文件编辑器。
 2. 在文件编辑器里，左边是编辑区，右边是浏览器的显示结果。用户可将右边显示结果复制到自己email里发出去。
