@@ -27,7 +27,8 @@ Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`
   password: &nbsp;mypassword </p>
 
   <p>Login page will <strong>Close Automatically</strong> after login sucessfully. Refresh this options page to make sure 'Advanced Feature Access' button is <strong>Green</strong> before using advanced features!</p>
-  <p>If you have any questions regarding to the process of advanced feature access, send email to: contact@baiyunconsulting.com</p>
+  <p>If you have any questions regarding to the process of advanced
+feature access, <a href="mailto:info.baiyunconsulting@gmail.com" >e-mail us</a></p>
 </div>
 
 ### Advanced Features
