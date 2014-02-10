@@ -7,7 +7,7 @@ tags: [markdown, jekyll]
  
 ## MarkView
 
-MarkView is a Chrome extention for reading markdown file with
+MarkView is a Chrome extension for reading markdown file with
 an outline view, support multiple table format styles, code block syntax
 highlight and [Github Flavored
 Markdown](https://help.github.com/articles/github-flavored-markdown).
