@@ -98,6 +98,10 @@ feature access, <a href="mailto:info.baiyunconsulting@gmail.com" >e-mail us</a><
   3. Click the browser action icon, Slides will show up.
   4. Use keyboard's ^ and v to select slides themes, use > and < to go through each slide.
   5. Full Presentation Mode: Chrome -> View -> Enter Presentation Mode
+  6. Export to PDF: Chrome->File->Print... -> Open PDF in preview ->
+save as PDF file 
+  7. Post at slideshare.net or others: Upload the PDF file to
+slideshare.net -> DONE!
 
   <div>
     <a href="http://shaneweng.com/projects/markview/tests/sample-slides.md" target="_blank">Sample Online: Slides Presentation</a>
