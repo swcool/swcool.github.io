@@ -115,6 +115,19 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
     <a href="http://shaneweng.com/projects/markview/tests/sample-slides-cn.md" target="_blank">线上测试样版： 演示简报</a>
   </div>
 
+  <p>样版在slideshare.net上展示</p>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/31255232"
+width="427" height="356" frameborder="0" marginwidth="0"
+marginheight="0" scrolling="no" style="border:1px solid #CCC;
+border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;"
+allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a
+href="https://www.slideshare.net/ShaneWeng/markview-cn"
+title="标示简写易读器(MarkView) 演示片"
+target="_blank">标示简写易读器(MarkView) 演示片</a> </strong> from
+<strong><a href="http://www.slideshare.net/ShaneWeng"
+target="_blank">Shane Weng</a></strong> </div>
+<br/>
+
 #### 制作演示片
 1. 用Markdown的格式写文档，并以".md"为文件后缀(扩展名).
 2. 演示片之间用"---"来隔开，记得将"---"放在每个强调片的最后一行。
