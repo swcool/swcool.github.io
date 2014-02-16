@@ -106,13 +106,26 @@ slideshare.net -> DONE!
   <div>
     <a href="http://shaneweng.com/projects/markview/tests/sample-slides.md" target="_blank">Sample Online: Slides Presentation</a>
   </div>
+  <br/>
+  <p>Below is the Sample Online Slides uploaded at slideshare.net</P>
+  <br/>
+  <iframe src="http://www.slideshare.net/slideshow/embed_code/31226571"
+width="427" height="356" frameborder="0" marginwidth="0"
+marginheight="0" scrolling="no" style="border:1px solid #CCC;
+border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;"
+allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a
+href="https://www.slideshare.net/ShaneWeng/mark-view" title="MarkView: A
+Slide Presentation Building Tool" target="_blank">MarkView: A Slide
+Presentation Building Tool</a> </strong> from <strong><a
+href="http://www.slideshare.net/ShaneWeng" target="_blank">Shane
+Weng</a></strong> </div>
 
 ##### How To convert markdown document to slides:
-  1. Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
+  - Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
+
 
 #### More New Advanced Features are coming ...
 
-<br/>
 
 ### References
   1. [MarkView Chrome Web Store](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)  
