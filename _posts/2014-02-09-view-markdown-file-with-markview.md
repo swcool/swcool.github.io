@@ -132,9 +132,9 @@ raw.github.com because that subdomain only displays the source.
 
 ### Markdown Cheat Sheet
 
-[File Location](http://shaneweng.com/blog/markdown-cheat-sheet/)
+* [HTML Version](http://shaneweng.com/blog/markdown-cheat-sheet/)
 
-Above Cheat Sheet [PDF version](http://shaneweng.com/assets/pdf/markdown-cheatsheet.pdf)
+* [PDF version](http://shaneweng.com/assets/pdf/markdown-cheatsheet.pdf)
 
 <!-- Support MarkView as a free tool at Chrome Web Store  
 <br/>
