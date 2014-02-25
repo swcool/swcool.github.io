@@ -108,11 +108,11 @@ end
 
 **View**
 
-> Lorem ipsum
-> dolor sit amet
+> This is the first class item
+> That is the second class item
 
-> Lorem ipsum dolor
-sit amet
+> These are the
+third class items
 
 > Level one
 >
