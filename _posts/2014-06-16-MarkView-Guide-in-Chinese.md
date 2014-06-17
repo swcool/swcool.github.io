@@ -104,8 +104,7 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 ![MarkView Slides](/assets/images/slides-cn-v211.png)
 
 #### 使用步骤
-1.
-在[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)，选择“采用滑动片格式"后，点击“保留选择项"， ““采用滑动片格式"会呈绿色。  
+1. 在[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)，选择“采用滑动片格式"后，点击“保留选择项"， ““采用滑动片格式"会呈绿色。  
 2. 在Chrome浏览器的网址栏输入markdown格式的演示片文件地址，让该文显示在浏览器里。
 3. 然后点击浏览器上的“MarkView标示”按钮，这样演示片的形式会显示出来。
 4. 用电脑键盘的上^下v键来选择演示展示格式，用左<右>键来浏览演示片
@@ -126,12 +125,20 @@ title="标示简写易读器(MarkView) 演示片"
 target="_blank">标示简写易读器(MarkView) 演示片</a> </strong> from
 <strong><a href="http://www.slideshare.net/ShaneWeng"
 target="_blank">Shane Weng</a></strong> </div>
-<br/>
+<br/>  
 
 #### 制作演示片
 1. 用Markdown的格式写文档，并以".md"为文件后缀(扩展名).
 2. 演示片之间用"---"来隔开，记得将"---"放在每个演示片的最后一行。
 
+### 3. 自动生成滚动内容提纲和列表排序
+1. 在[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)，退选“采用滑动片格式"后，点击“保留选择项"。如果之前没选，可免做此步。
+2. 确认"进接高级功能"按钮显示**绿色**， ”基本功能“->选择区->文件展示类型, 选取“Advanced-Outline".
+3. 在Chrome浏览器的网址栏输入markdown格式的文件地址，让该文显示在浏览器里即完成。
+
+  <div>
+    <a href="http://shaneweng.com/projects/markview/tests/sample-adv.md" target="_blank">线上测试样版： 滚动提纲和列表排序</a>
+  </div>
 
 ## 参考资料
 - [维基百科: Markdown](http://zh.wikipedia.org/wiki/Markdown)  
