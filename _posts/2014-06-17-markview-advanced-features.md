@@ -9,14 +9,15 @@ tags: [markdown, jekyll]
 MarkView advanced version current has FOUR excellent Features: **Visual Editor**, **Custom Styling**, **Footnotes Support**, and **Slides Presentation.**  
 
 <iframe width="640" height="360"
-src="//www.youtube.com/embed/ANbtr3m7fjU" frameborder="0"
-allowfullscreen></iframe>
+src="//www.youtube.com/embed/ANbtr3m7fjU" frameborder="0" allowfullscreen></iframe>
 
 *Options Page*
 
 Location: `chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html`  
 <br/>
-![MarkView Options Page](/assets/images/options.png)
+
+![MarkView Options Page](/assets/images/options-060714.png)
+
 <br/>
 
 ### Access Advanced Features
@@ -97,11 +98,10 @@ feature access, <a href="mailto:info.baiyunconsulting@gmail.com" >e-mail us</a><
 #### 4. Slides Presentation Feature
   1. Select checkbox "Apply Slide Format" and click "Save Options"
   2. Navigate to your markdown page (file has "---" at the end to seperate each slide )
-  3. Click the browser action icon, Slides will show up.
+  3. Click the browser action icon, Slides will show up.  
   4. Use keyboard's ^ and v to select slides themes, use > and < to go through each slide.
   5. Full Presentation Mode: Chrome -> View -> Enter Presentation Mode
-  6. Export to PDF: Chrome->File->Print... -> Open PDF in preview ->
-save as PDF file 
+  6. Export to PDF: Chrome->File->Print... -> Open PDF in preview -> save as PDF file 
   7. Post at slideshare.net or others: Upload the PDF file to
 slideshare.net -> DONE!
 
@@ -122,8 +122,20 @@ Presentation Building Tool</a> </strong> from <strong><a
 href="http://www.slideshare.net/ShaneWeng" target="_blank">Shane
 Weng</a></strong> </div>
 
+#### 5. Advanced-Outline Theme: auto scroll-spying and table sorting  
+  1. In [Options Page](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html), make sure uncheck "Apply Slide Format".
+  2. In Selections -> Document Theme -> select "Advanced-Outline"
+  3. Navigate to your markdown page.
+
+![Advanced-Outline](/assets/images/adv-outline.png)
+
+  <div>
+    <a href="http://shaneweng.com/projects/markview/tests/sample-adv.md" target="_blank">Online Sample： Advanced-Outline</a>
+  </div>
+
 ##### How To convert markdown document to slides:
   - Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
+
 
 
 #### More New Advanced Features are coming ...
