@@ -1,7 +1,7 @@
 # MarkView  ![MarkView](https://raw.github.com/swcool/swcool.github.io/master/assets/images/icon.png)
 ## Advanced Features
-* Visual Markdown Editor; Instant Slides Presentation
-* Support Table  Sorting; Support Footnotes<span style="color: red;"><sup>1</sup> <em>&#8617;</em></span>
+* Visual Markdown Editor and Slides Presentation
+* Support Table  Sorting and Footnotes<span style="color: red;"><sup>1</sup> <em>&#8617;</em></span>
 * Advanced-Outline Theme: Auto Scroll-Spy
 * Document Custom Styling:
   - Add Theme CSS and Select
