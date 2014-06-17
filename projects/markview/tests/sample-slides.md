@@ -1,9 +1,9 @@
 # MarkView  ![MarkView](https://raw.github.com/swcool/swcool.github.io/master/assets/images/icon.png)
 ## Advanced Features
-1. Visual Markdown Editor
-2. Support Footnotes<span style="color: red;"><sup>1</sup> <em>&#8617;</em></span>
-3. Instant Slides Presentation
-4. Document Custom Styling:
+* Visual Markdown Editor; Instant Slides Presentation
+* Support Table  Sorting; Support Footnotes<span style="color: red;"><sup>1</sup> <em>&#8617;</em></span>
+* Advanced-Outline Theme: Auto Scroll-Spy
+* Document Custom Styling:
   - Add Theme CSS and Select
   - Add Code Style and Select
   - Write CSS, Save and Run
@@ -58,7 +58,7 @@ Instant Presentation Slides Display
 ## Another way to display image! 
 
 <p align="center">
-<img src="https://raw.github.com/swcool/swcool.github.io/master/assets/images/editor-v221.png", style="width: 500px;"/>
+<img src="https://raw.github.com/swcool/swcool.github.io/master/assets/images/adv-outline.png", style="width: 500px;"/>
 </p>
 
 Don't forget to put "---" or `<hr/>` at the end of each slide
