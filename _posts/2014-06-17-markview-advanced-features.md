@@ -122,19 +122,23 @@ Presentation Building Tool</a> </strong> from <strong><a
 href="http://www.slideshare.net/ShaneWeng" target="_blank">Shane
 Weng</a></strong> </div>
 
+##### How To convert markdown document to slides:
+  - Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
+<br/>
+
 #### 5. Advanced-Outline Theme: auto scroll-spying and table sorting  
+
   1. In [Options Page](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html), make sure uncheck "Apply Slide Format".
   2. In Selections -> Document Theme -> select "Advanced-Outline"
   3. Navigate to your markdown page.
 
 ![Advanced-Outline](/assets/images/adv-outline.png)
-
+<br/>
   <div>
     <a href="http://shaneweng.com/projects/markview/tests/sample-adv.md" target="_blank">Online Sample： Advanced-Outline</a>
   </div>
 
-##### How To convert markdown document to slides:
-  - Inside markdown file, use '---' as seperator for each slide, make sure to put '---' at the end of each slide.
+
 
 
 
