@@ -136,6 +136,8 @@ target="_blank">Shane Weng</a></strong> </div>
 2. 确认"进接高级功能"按钮显示**绿色**， ”基本功能“->选择区->文件展示类型, 选取“Advanced-Outline".
 3. 在Chrome浏览器的网址栏输入markdown格式的文件地址，让该文显示在浏览器里即完成。
 
+![Advanced-Outline](/assets/images/adv-outline.png)
+
   <div>
     <a href="http://shaneweng.com/projects/markview/tests/sample-adv.md" target="_blank">线上测试样版： 滚动提纲和列表排序</a>
   </div>
