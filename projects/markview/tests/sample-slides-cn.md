@@ -1,11 +1,9 @@
 # 标记显示器 ![MarkView](https://raw.github.com/swcool/swcool.github.io/master/assets/images/icon.png)
 ## 高级功能
-1. 可视化标记编辑器
-2. 支持脚本注解<span style="color: red;"><sup>1</sup> <em>&#8617;</em></span>
-3. 支持列表排序
-4. 提纲动态展示型: 自动滚动框跟踪
-3. 即时投影展示
-4. 文件自定义样式：
+* 具有视化标记编辑器; 能够即时展示投影片
+* 支持列表排序; 支持脚本注解<span style="color: red;"><sup>1</sup> <em>&#8617;</em></span>
+* 提纲动态展示型: 自动滚动框跟踪 
+* 文件自定义样式：
   - 增加文件外观风格的CSS及设定
   - 增加代码区外观形式的CSS及设定
   - 在输入区写入CSS，保存及运行
