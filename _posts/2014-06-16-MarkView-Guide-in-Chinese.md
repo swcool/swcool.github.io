@@ -17,15 +17,15 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 ## 进入高级功能
 在[Options设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html):  
 
-1.  点击"Advanced Feature Acsess", 会跳到登录页面要求email和密码，分别输入`guest@markviewer.com` 和 `mypassword`， 然后点击”Sign in“ 登录。 登录成功后， 登录页面会自动关闭。  
+1.  点击"进接高级功能", 会跳到登录页面要求email和密码，分别输入`guest@markviewer.com` 和 `mypassword`， 然后点击”Sign in“ 登录。 登录成功后， 登录页面会自动关闭。  
 
-2.  请回到[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)， 涮新页面，"Advanced Feature Acsess"会显示**绿色**。
+2.  请回到[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)， 涮新页面，"进接高级功能"按钮会显示**绿色**。
 
 ### 1. 使用编辑器
 
 ![MarkView Editor: Chinese](/assets/images/editor-v224-cn.png)
 
-1. 确认"Advanced Feature Acsess"显示**绿色**，然后点击"Open Markdown Editor" 进入文件编辑器。
+1. 确认"进接高级功能"按钮显示**绿色**，然后点击"进入编辑器"按钮进入文件编辑器。
 2. 在文件编辑器里，左边是编辑区，右边是浏览器的显示结果。用户可将右边显示结果复制到自己email里发出去。
 3. 以下是例子说明，用户可复制到左边编辑区里，然后看到右边的显示结果。
 
@@ -105,9 +105,9 @@ MarkView中文意思是“标记显示”，就是使用者在原文做个标记
 
 #### 使用步骤
 1.
-在[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)，选择“Apply Slide Format"后点击“Save Options"  
+在[设置页面里](chrome-extension://iaddkimmopgchbbnmfmdcophmlnghkim/options.html)，选择“采用滑动片格式"后，点击“保留选择项"， ““采用滑动片格式"会呈绿色。  
 2. 在Chrome浏览器的网址栏输入markdown格式的演示片文件地址，让该文显示在浏览器里。
-3. 然后点击浏览器上的“MarkView”按钮，这样演示片的形式会显示出来。
+3. 然后点击浏览器上的“MarkView标示”按钮，这样演示片的形式会显示出来。
 4. 用电脑键盘的上^下v键来选择演示展示格式，用左<右>键来浏览演示片
 5. 进入全演示展示： Chrome->视图(View)->进入演示模式(Enter Presentation Mode)
 
@@ -130,7 +130,7 @@ target="_blank">Shane Weng</a></strong> </div>
 
 #### 制作演示片
 1. 用Markdown的格式写文档，并以".md"为文件后缀(扩展名).
-2. 演示片之间用"---"来隔开，记得将"---"放在每个强调片的最后一行。
+2. 演示片之间用"---"来隔开，记得将"---"放在每个演示片的最后一行。
 
 
 ## 参考资料
