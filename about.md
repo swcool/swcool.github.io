@@ -28,3 +28,7 @@ I am Shane Weng, a Software developer from Silicon Valley, California.
 - Version Control System - [git](http://git-scm.com/)
 - Text Format: [markdown](http://daringfireball.net/projects/markdown/)
 - Deploy Tool: [chef](http://www.opscode.com/chef/)
+
+### Business WebSite
+
+[Baiyun Consulting Group](http://www.baiyunconsulting.com/)
