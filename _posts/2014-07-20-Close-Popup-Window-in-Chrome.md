@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Close Popup Window in Chrome"
+title: "Close Popup Window in Chrome Extension"
 category: blog
 tags: [chrome, popup-window]
 ---
