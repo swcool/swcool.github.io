@@ -30,10 +30,10 @@ So, in the previous Chrome released builds, the below code block may worked but 
     window.close();
 ```
 
-For this update, you have to update your code accordingly to close the popup window. One of the solution is to grab the popup window id and use 
+For this update, you have to update your code accordingly to close the popup window. One of the solution is to grab the popup window id and use  
 
 ```javascript
-    chrome.windows.remove(integer windowId, function callback);
+    chrome.windows.remove(integer windowId, function callback)
 ```
 
 method to remove it. Chrome extension windows API can be found at [chrome.windows](https://developer.chrome.com/extensions/windows). 
