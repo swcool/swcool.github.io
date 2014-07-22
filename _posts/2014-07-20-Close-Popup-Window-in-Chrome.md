@@ -25,20 +25,26 @@ From my observation, this update fixed the issue on using `window.close()` to cl
 
 So, in the previous Chrome released builds, the below code block may worked but not with this update.
 
+```javascript
     window.open('', '_self', '');
     window.close();
+```
 
 For this update, you have to update your code accordingly to close the popup window. One of the solution is to grab the popup window id and use 
 
+```javascript
     chrome.windows.remove(integer windowId, function callback)
+```
 
 method to remove it. Chrome extension windows API can be found at [chrome.windows](https://developer.chrome.com/extensions/windows). 
 
 `chrome.windows.remove` is Chrome extension API, javascript program should be recognized by chrome extension. You can try by putting it inside background.js, in your chrome extension manifest.json you need to have:
 
+```javascript
 	"background": {
 	  "scripts": ["background.js"],
 	  ...
 	},
+```
 
 In the past, a great discussion around this window close issue can be found at [stackoverflow](http://stackoverflow.com/questions/19761241/window-close-and-self-close-do-not-close-the-window-in-chrome).
