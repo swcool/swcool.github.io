@@ -34,4 +34,11 @@ For this update, you have to update your code accordingly to close the popup win
 
 method to remove it. Chrome extension windows API can be found at [chrome.windows](https://developer.chrome.com/extensions/windows). 
 
-In the past, a great discussion around this related issue can be found at [stackoverflow](http://stackoverflow.com/questions/19761241/window-close-and-self-close-do-not-close-the-window-in-chrome).
+`chrome.windows.remove` is Chrome extension API, javascript program should be recognized by chrome extension. You can try by putting it inside background.js, in your chrome extension manifest.json you need to have:
+
+	"background": {
+	  "scripts": ["background.js"],
+	  ...
+	},
+
+In the past, a great discussion around this window close issue can be found at [stackoverflow](http://stackoverflow.com/questions/19761241/window-close-and-self-close-do-not-close-the-window-in-chrome).
