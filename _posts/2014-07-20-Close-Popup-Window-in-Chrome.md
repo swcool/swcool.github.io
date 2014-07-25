@@ -30,7 +30,7 @@ So, in the previous Chrome released builds, the below code block may worked but 
     window.close();
 ```
 
-For this update, you have to update your code accordingly to close the popup window. One of the solution is to grab the popup window id and use  
+Above is to open a new window with about:blank to replace the current page, then close it. From this Chrome update, you have to update your code accordingly to close the popup window. One of the solution is to grab the popup window id and use  
 
 ```javascript
     chrome.windows.remove(integer windowId, function callback)
