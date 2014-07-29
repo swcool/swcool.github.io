@@ -47,4 +47,6 @@ method to remove it. Chrome extension windows API can be found at [chrome.window
 	},
 ```
 
+Actually my chrome extension [MarkView](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim) was facing this issue and I had to update my code to make it work for this Chrome Update. By the way, MarkView is tool to read and write Awesome Markdown Files, it provides features including Content Outline, Sortable Tables and code block syntax highlight with line number.
+
 In the past, a great discussion around this window close issue can be found at [stackoverflow](http://stackoverflow.com/questions/19761241/window-close-and-self-close-do-not-close-the-window-in-chrome).
