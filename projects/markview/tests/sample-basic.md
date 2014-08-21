@@ -16,7 +16,6 @@ table styles and code block syntax highlight.
 ## Sample
 
 ### Test Images
-![local file](/assets/images/icon.png)
 ![remote file](https://raw.github.com/swcool/swcool.github.io/master/assets/images/icon.png) 
 
 ### Test Block
