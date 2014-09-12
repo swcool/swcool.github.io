@@ -122,7 +122,7 @@ raw.github.com because that subdomain only displays the source.
     import "fmt"
 
     func main() {
-      fmt.Println("Hello, world.")
+      fmt.Println("Hello, world!")
     }
 ```
 
