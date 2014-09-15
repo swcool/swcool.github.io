@@ -2,7 +2,7 @@
 layout: post
 title: "Close Popup Window in Chrome Extension"
 category: blog
-tags: [chrome, popup-window]
+tags: [chrome]
 ---
 
 ### Chrome Fixed the security issues on version 36.0.1985.125

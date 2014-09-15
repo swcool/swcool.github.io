@@ -1,3 +1,3 @@
 # Personal Blog site
 
-http://swcool.github.com
+http://www.shaneweng.com/
