@@ -5,3 +5,6 @@ _site
 .project
 .DS_Store
 .idea
+gulpfile.js
+node_modules/
+package.json
