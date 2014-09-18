@@ -2,7 +2,7 @@
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
   var disqus_shortname = '{{ site.disqus_shortname }}'; 
   var disqus_identifier = '{{ page.url }}';
-  var disqus_url = 'http://www.shaneweng.com{{ page.url }}';
+  var disqus_url = 'http://shaneweng.com{{ page.url }}';
 
   /* * * DON'T EDIT BELOW THIS LINE * * */
  (function () {
@@ -15,7 +15,7 @@
 
 <h2>{{ page.title }}</h2>
 
-<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="http://www.shaneweng.com{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a></small></strong>
+<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="http://shaneweng.com{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a></small></strong>
   <br/>
 
   <small>Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}/" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>  
