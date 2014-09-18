@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "MarkView 中文说明"
+title: "MarkView in Chinese 中文说明"
 category: blog
-tags: [markdown, jekyll, markview]
+tags: [markdown, jekyll, markview, 中文]
 ---
 
 ## 关于 MarkView
