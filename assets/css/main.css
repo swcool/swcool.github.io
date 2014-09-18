@@ -171,3 +171,87 @@ table tr th, table tr td
   margin:0;
   padding:6px 13px;
 }
+
+/*****************************************************************************/
+/*
+/* Sidebar
+/*
+/*****************************************************************************/
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+   padding-right: 270px; 
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: absolute;
+    right: 270px;
+    width: 0;
+    height: 100%;
+    margin-right: -270px; 
+    overflow-y: scroll;
+    background: white;
+    padding-right: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 270px;
+}
+
+#content-wrapper {
+    width: 100%;
+    padding: 15px;
+}
+
+#wrapper.toggled #content-wrapper {
+    position: absolute;
+    margin-left: -270px; 
+}
+
+.posts li {
+    margin-left:-30px;
+}
+
+.sidebar {
+    padding-right: 20px;
+}
+
+@media(min-width:780px) {
+    #wrapper {
+        padding-right: 270px; 
+    }
+
+    #wrapper.toggled {
+        padding-right: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #content-wrapper {
+        padding: 20px;
+    }
+
+    #wrapper.toggled #content-wrapper {
+        position: relative;
+        margin-left: 0;
+    }
+}
+
