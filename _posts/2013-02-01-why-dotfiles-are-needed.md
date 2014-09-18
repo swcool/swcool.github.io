@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Dot Files are Needed
-category: blog
+category: blog-tech
 tags: [dotfiles, git]
 ---
 

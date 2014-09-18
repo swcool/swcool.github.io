@@ -4,7 +4,7 @@
 url:  http://swcool.github.io
 title: Talk about Tech and Business
 author: Shane Weng
-categories: [blog, coding, biz]
+categories: [blog, blog-tech, blog-biz, blog-live]
 permalink: /:categories/:title
 
 twitter: baiyungroup
