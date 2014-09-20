@@ -13,7 +13,7 @@ highlight and [Github Flavored
 Markdown](https://help.github.com/articles/github-flavored-markdown).
 
 <iframe width="420" height="315"
-src="http://youtu.be/GhLN1m2NeUY" frameborder="0"
+src="https://www.youtube.com/embed/GhLN1m2NeUY?autoplay=false" frameborder="0"
 allowfullscreen></iframe>
 
 <a href="http://v.youku.com/v_show/id_XNjM0MjI1NTI4.html" target="_blank">Same Video on YouKu</a>
