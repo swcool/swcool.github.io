@@ -193,10 +193,10 @@ table tr th, table tr td
 #sidebar-wrapper {
     z-index: 1000;
     position: absolute;
-    right: 270px;
+    right: 300px;
     width: 0;
     height: 100%;
-    margin-right: -270px; 
+    margin-right: -300px; 
     overflow-y: scroll;
     background: white;
     padding-right: 0;
@@ -207,7 +207,7 @@ table tr th, table tr td
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    width: 270px;
+    width: 300px;
 }
 
 #content-wrapper {
@@ -217,7 +217,7 @@ table tr th, table tr td
 
 #wrapper.toggled #content-wrapper {
     position: absolute;
-    margin-left: -270px; 
+    margin-left: -300px; 
 }
 
 .posts li {
@@ -225,12 +225,12 @@ table tr th, table tr td
 }
 
 .sidebar {
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 @media(min-width:780px) {
     #wrapper {
-        padding-right: 270px; 
+        padding-right: 300px; 
     }
 
     #wrapper.toggled {
@@ -238,7 +238,7 @@ table tr th, table tr td
     }
 
     #sidebar-wrapper {
-        width: 250px;
+        width: 300px;
     }
 
     #wrapper.toggled #sidebar-wrapper {
