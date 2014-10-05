@@ -16,7 +16,7 @@ I am Shane Weng, a Software developer from Silicon Valley, California.
 - MarkView: Markdown Editor and Viewer inside Browser. [View in Web
   Store](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)
 - Lite: A Clean, Light and Pretty Way to Build A Simple Web Site! [View on Github](https://github.com/swcool/lite)
-- Landing Page Jekyll Theme: a Clean, Elegant and Responsive Bootstrap theme. View on [Github](https://github.com/swcool/landing-page-theme) , Live [Demo](http://shaneweng.com/landing-page-theme/)
+- Landing Page Jekyll Theme: a Clean, Elegant and Responsive Bootstrap theme. View on [Github](https://github.com/swcool/landing-page-theme) , Live [Demo](http://baiyungroup.github.io/landing-page-theme/)
 - EasyRead: An Easy Reading Tool for Web Pages. (In testing stage)
 
 
