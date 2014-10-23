@@ -10,8 +10,8 @@ permalink: /:categories/:title
 twitter: baiyungroup
 disqus_shortname: shanewengcom
 googleplus: shane.weng@gmail.com
-# analytics: UA-45893255-1
-analytics: UA-55537228-2
+analytics: UA-45893255-1
+analytics-sw: UA-55537228-2
 
 # --------------------- #
 #   Jekyll & Plugin 
