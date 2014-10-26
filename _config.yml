@@ -2,7 +2,7 @@
 #   Main Configs
 # --------------------- #
 url:  http://shaneweng.com
-title: Talk about Tech, Business and Live
+title: Talk about Tech, Biz and Live
 author: Shane Weng
 categories: [blog, blog-tech, blog-biz, blog-live]
 permalink: /:categories/:title
