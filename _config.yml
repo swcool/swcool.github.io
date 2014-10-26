@@ -2,12 +2,12 @@
 #   Main Configs
 # --------------------- #
 url:  http://shaneweng.com
-title: Talk about Tech and Business
+title: Talk about Tech, Business and Live
 author: Shane Weng
 categories: [blog, blog-tech, blog-biz, blog-live]
 permalink: /:categories/:title
 
-twitter: baiyungroup
+twitter: zwcool
 disqus_shortname: shanewengcom
 googleplus: shane.weng@gmail.com
 analytics: UA-45893255-1
