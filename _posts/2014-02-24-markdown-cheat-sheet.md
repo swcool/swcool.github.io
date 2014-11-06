@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Markdown Cheat Sheet"
-category: blog-tech
+category: blog
 tags: [markdown, jekyll]
 ---
 
