@@ -1,3 +1,3 @@
-## Personal Blog site
+# Personal Blog site
 
 http://www.shaneweng.com/
