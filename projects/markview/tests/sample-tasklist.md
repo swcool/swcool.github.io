@@ -13,7 +13,7 @@
   supported
   - [x] list syntax required (any unordered or ordered list supported)
   - This is a list item
-* [x] this is a complete item
+* This is a list item
   + [ ] this is an incomplete item
   + [x] this is a complete item 
 
@@ -23,6 +23,6 @@
   supported
   - [x] list syntax required (any unordered or ordered list supported)
   - This is a list item
-1. [x] this is a complete item
+1. This is a list item
   + [ ] this is an incomplete item
   + [x] this is a complete item 
