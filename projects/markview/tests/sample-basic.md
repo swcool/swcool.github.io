@@ -11,7 +11,7 @@ table styles and code block syntax highlight.
 3. Show outline beside the content in scrollable way
 4. Have buttons for GoTop, ViewSource and GoBottom
 5. Support Github Flavored Markdown table styles and code highlight.
-6. Highlight the code area for programming languages(eg. ```ruby)
+6. Highlight the code area for programming languages(eg. ruby) 
 
 ## Sample
 
@@ -63,9 +63,11 @@ Hello world! This is a test:
 1. best
   -  abcd
   -  efg
+
 1. wonderful
   * football
   * basketball
+
 1. great
 
 ### Test backtick with list
