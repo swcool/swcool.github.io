@@ -34,6 +34,7 @@ end
 ```  
 
 Slide seperator also accept this `<hr>` and `<hr/>`
+
 <hr>
 
 ## Stylish presentation with themes
@@ -54,7 +55,9 @@ Instant Presentation Slides Display
 ![MarkView Editor](https://raw.github.com/swcool/swcool.github.io/master/assets/images/editor-v221.png)
 
 ---  
+
 <br/>
+
 ## Another way to display image! 
 
 <p align="center">
