@@ -160,7 +160,7 @@ third class items
 **View**
 
 
-~~Useless, must be removed~~
+<del>Useless, must be removed</del>
 
 
 ---
@@ -318,4 +318,4 @@ third class items
 
 	**View**
 
-  <del>Useless, must be removed</del>
+      <del>Useless, must be removed</del>
