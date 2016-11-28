@@ -318,4 +318,4 @@ third class items
 
 	**View**
 
-  <strike>Useless, must be removed</strike>
+  <del>Useless, must be removed</del>
