@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Shane Weng&#39;s Blog">
-    <title>hello hexo - Shane Weng&#39;s Blog</title>
+    <title>Close Popup Window in Chrome Extension - Shane Weng&#39;s Blog</title>
     <meta name="author" content="Shane Weng">
     
         <meta name="keywords" content="hexo,javascript,">
@@ -17,21 +17,18 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="Test http://abc.com H2O">
-<meta name="keywords" content="hexo,javascript">
+    <meta name="description" content="Chrome Fixed the security issues on version 36.0.1985.125 Chrome 36.0.1985.125 WEDNESDAY, JULY 16, 2014 Release note">
+<meta name="keywords" content="chrome">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="hello hexo">
-<meta property="og:url" content="http://www.shaneweng.com/2017/08/16/hello-hexo/index.html">
+<meta property="og:title" content="Close Popup Window in Chrome Extension">
+<meta property="og:url" content="http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/index.html">
 <meta property="og:site_name" content="Shane Weng&#39;s Blog">
-<meta property="og:description" content="Test http://abc.com H2O">
+<meta property="og:description" content="Chrome Fixed the security issues on version 36.0.1985.125 Chrome 36.0.1985.125 WEDNESDAY, JULY 16, 2014 Release note">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg">
-<meta property="og:image" content="http://www.shaneweng.com/assets/images/slides.png">
-<meta property="og:updated_time" content="2017-09-15T00:29:45.000Z">
+<meta property="og:updated_time" content="2017-09-15T20:54:04.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hello hexo">
-<meta name="twitter:description" content="Test http://abc.com H2O">
-<meta name="twitter:image" content="http://d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg">
+<meta name="twitter:title" content="Close Popup Window in Chrome Extension">
+<meta name="twitter:description" content="Chrome Fixed the security issues on version 36.0.1985.125 Chrome 36.0.1985.125 WEDNESDAY, JULY 16, 2014 Release note">
 <meta name="twitter:creator" content="@baiyungroup">
     
         <link rel="publisher" href="https://plus.google.com/106544236384520650000"/>
@@ -43,8 +40,8 @@
         <meta property="og:image" content="http://www.shaneweng.com/assets/images/shane_circle.png"/>
     
     
-        <meta property="og:image" content="http://d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg"/>
-        <meta class="swiftype" name="image" data-type="enum" content="http://d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg" />
+        <meta property="og:image" content="http://logos-download.com/wp-content/uploads/2016/05/Google_Chrome_logo_icon.png"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://logos-download.com/wp-content/uploads/2016/05/Google_Chrome_logo_icon.png" />
     
     
     
@@ -245,16 +242,22 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            hello hexo
+            Close Popup Window in Chrome Extension
         </h1>
     
     
         <div class="post-meta">
-    <time itemprop="datePublished" datetime="2017-08-16T14:58:38-07:00">
+    <time itemprop="datePublished" datetime="2014-07-20T00:00:00-07:00">
 	
-		    Aug 16, 2017
+		    Jul 20, 2014
     	
     </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/blog/">blog</a>
+
+
     
 </div>
 
@@ -263,18 +266,44 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>Test</p>
-<p><a href="http://abc.com" target="_blank" rel="external">http://abc.com</a></p>
-<p>H<sub>2</sub>O</p>
+            <h3 id="chrome-fixed-the-security-issues-on-version-36-0-1985-125">Chrome Fixed the security issues on version 36.0.1985.125</h3>
+<p>Chrome 36.0.1985.125 WEDNESDAY, JULY 16, 2014<br>
+<a href="http://googlechromereleases.blogspot.com/2014/07/stable-channel-update.html" target="_blank" rel="external">Release note</a></p>
 <a id="more"></a>
-<p>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</p>
-<p><a class="fancybox" href="http://d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg" title="Caption" data-fancybox-group="" target="_blank" rel="external"><img class="fig-img" src="http://d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg" style="width:75%;" alt="Caption"></a></p>
-<p><img src="/assets/images/slides.png" alt="image demo"></p>
+<p>As it said, the new version contains a number of fixes and improvements, including:</p>
+<blockquote>
+<p>Rich Notifications Improvements<br>
+An Updated Incognito / Guest NTP design<br>
+The addition of a Browser crash recovery bubble<br>
+Chrome App Launcher for Linux<br>
+Lots of under the hood changes for stability and performance</p>
+</blockquote>
+<p>It also said:</p>
+<blockquote>
+<p>This update includes 26 security fixes. Below, we highlight fixes that were either contributed by external researchers or particularly interesting. Please see the Chromium security page for more information.</p>
+</blockquote>
+<p>From my observation, this update fixed the issue on using <code>window.close()</code> to close the popup window. You will see this in the console when it fail, “Scripts may close only the windows that were opened by it.”</p>
+<p>So, in the previous Chrome released builds, the below code block may worked but not with this update.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">window</span>.open(<span class="string">''</span>, <span class="string">'_self'</span>, <span class="string">''</span>);</div><div class="line"><span class="built_in">window</span>.close();</div></pre></td></tr></table></figure>
+<p>Above is to open a new window with about:blank to replace the current page, then close it. From this Chrome update, you have to update your code accordingly to close the popup window. One of the solution is to grab the popup window id and use</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chrome.windows.remove(integer windowId, <span class="function"><span class="keyword">function</span> <span class="title">callback</span>)</span></div></pre></td></tr></table></figure>
+<p>method to remove it. Chrome extension windows API can be found at <a href="https://developer.chrome.com/extensions/windows" target="_blank" rel="external">chrome.windows</a>.</p>
+<p><code>chrome.windows.remove</code> is Chrome extension API, javascript program should be recognized by chrome extension. You can try by putting it inside background.js, in your chrome extension manifest.json you need to have:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">"background"</span>: &#123;</div><div class="line">  <span class="string">"scripts"</span>: [<span class="string">"background.js"</span>],</div><div class="line">  ...</div><div class="line">&#125;,</div></pre></td></tr></table></figure>
+<p>Actually my chrome extension <a href="https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim" target="_blank" rel="external">MarkView</a> was facing this issue and I had to update my code to make it work for this Chrome Update. By the way, MarkView is tool to read and write Awesome Markdown Files, it provides features including Content Outline, Sortable Tables and code block syntax highlight with line number.</p>
+<p>In the past, a great discussion around this window close issue can be found at <a href="http://stackoverflow.com/questions/19761241/window-close-and-self-close-do-not-close-the-window-in-chrome" target="_blank" rel="external">stackoverflow</a>.</p>
 
             
         </div>
     </div>
     <div id="post-footer" class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/chrome/">chrome</a>
+
+            </div>
         
         
             <div class="post-actions-wrap">
@@ -282,7 +311,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/09/14/hello-world/"  data-tooltip="Hello World">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -308,7 +337,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2017/08/16/hello-hexo/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
                     <i class="fa fa-facebook-official"></i>
                 </a>
             </li>
@@ -316,7 +345,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2017/08/16/hello-hexo/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
                     <i class="fa fa-twitter"></i>
                 </a>
             </li>
@@ -324,7 +353,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2017/08/16/hello-hexo/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
                     <i class="fa fa-google-plus"></i>
                 </a>
             </li>
@@ -374,7 +403,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/09/14/hello-world/"  data-tooltip="Hello World">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -400,7 +429,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2017/08/16/hello-hexo/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
                     <i class="fa fa-facebook-official"></i>
                 </a>
             </li>
@@ -408,7 +437,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2017/08/16/hello-hexo/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
                     <i class="fa fa-twitter"></i>
                 </a>
             </li>
@@ -416,7 +445,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2017/08/16/hello-hexo/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
                     <i class="fa fa-google-plus"></i>
                 </a>
             </li>
@@ -447,7 +476,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2017/08/16/hello-hexo/">
+                <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
                     <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
                 </a>
             </li>
@@ -455,7 +484,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2017/08/16/hello-hexo/">
+                <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
                     <i class="fa fa-twitter"></i><span>Share on Twitter</span>
                 </a>
             </li>
@@ -463,7 +492,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2017/08/16/hello-hexo/">
+                <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
                     <i class="fa fa-google-plus"></i><span>Share on Google+</span>
                 </a>
             </li>
@@ -563,51 +592,25 @@
                 <div class="media">
                     
                     <div class="media-left">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/08/16/hello-hexo/">
-                            <img class="media-image" src="http://d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg" width="90" height="90"/>
+                        <a class="link-unstyled" href="http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                            <img class="media-image" src="http://logos-download.com/wp-content/uploads/2016/05/Google_Chrome_logo_icon.png" width="90" height="90"/>
                         </a>
                     </div>
                     
                     <div class="media-body">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/08/16/hello-hexo/">
-                            <h3 class="media-heading">hello hexo</h3>
+                        <a class="link-unstyled" href="http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                            <h3 class="media-heading">Close Popup Window in Chrome Extension</h3>
                         </a>
                         <span class="media-meta">
                             <span class="media-date text-small">
                                 
-                                    Aug 16, 2017
+                                    Jul 20, 2014
                                 
                             </span>
                         </span>
-                        <div class="media-content hide-xs font-merryweather"><p>Test</p>
-<p><a href="http://abc.com" target="_blank" rel="external">http://abc.com</a></p>
-<p>H<sub>2</sub>O</p></div>
-                    </div>
-                    <div style="clear:both;"></div>
-                    <hr>
-                </div>
-                
-                <div class="media">
-                    
-                    <div class="media-left">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/14/hello-world/">
-                            <img class="media-image" src="https://raw.githubusercontent.com/swcool/swcool.github.io/master/assets/images/editor-v221.png" width="90" height="90"/>
-                        </a>
-                    </div>
-                    
-                    <div class="media-body">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/14/hello-world/">
-                            <h3 class="media-heading">Hello World</h3>
-                        </a>
-                        <span class="media-meta">
-                            <span class="media-date text-small">
-                                
-                                    Sep 14, 2017
-                                
-                            </span>
-                        </span>
-                        <div class="media-content hide-xs font-merryweather"><!-- toc -->
-<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p></div>
+                        <div class="media-content hide-xs font-merryweather"><h3 id="chrome-fixed-the-security-issues-on-version-36-0-1985-125">Chrome Fixed the security issues on version 36.0.1985.125</h3>
+<p>Chrome 36.0.1985.125 WEDNESDAY, JULY 16, 2014<br>
+<a href="http://googlechromereleases.blogspot.com/2014/07/stable-channel-update.html" target="_blank" rel="external">Release note</a></p></div>
                     </div>
                     <div style="clear:both;"></div>
                     <hr>
@@ -620,7 +623,7 @@
                 data-message-zero="no post found"
                 data-message-one="1 post found"
                 data-message-other="{n} posts found">
-                3 posts found
+                2 posts found
             </p>
         </div>
     </div>
@@ -635,9 +638,9 @@
     
         <script>
              var disqus_config = function () {
-                 this.page.url = 'http://www.shaneweng.com/2017/08/16/hello-hexo/';
+                 this.page.url = 'http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/';
                  
-                    this.page.identifier = '2017/08/16/hello-hexo/';
+                    this.page.identifier = '2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/';
                  
              };
             (function() {
