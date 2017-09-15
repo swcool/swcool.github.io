@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Shane Weng&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.shaneweng.com/"/>
+  <updated>2017-09-15T00:29:45.000Z</updated>
+  <id>http://www.shaneweng.com/</id>
+  
+  <author>
+    <name>Shane Weng</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.shaneweng.com/2017/09/14/hello-world/"/>
+    <id>http://www.shaneweng.com/2017/09/14/hello-world/</id>
+    <published>2017-09-15T00:29:45.000Z</published>
+    <updated>2017-09-15T00:29:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<!-- toc --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><a id="more"></a><p><img src="/assets/images/slides.png" alt="image demo"></p><div class="figure right" style="width:150px;"><a class="fancybox" href="assets/images/slides.png" title="An image demo" data-fancybox-group="baiyun"><img class="fig-img" src="assets/images/slides.png" style="width:150px;height:300px;" alt="An image demo"></a><span class="caption">An image demo</span></div><div style="clear:both;"></div><h2 id="quick-start">Quick Start</h2><h3 id="create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p><h2 id="new-features">New Features</h2><p><a href="http://abc.com" target="_blank" rel="external">http://abc.com</a></p><p>H<sub>2</sub>O</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;!-- toc --&gt;
+&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Greeting,Test" scheme="http://www.shaneweng.com/categories/Greeting-Test/"/>
+    
+      <category term="Hexo,JS" scheme="http://www.shaneweng.com/categories/Greeting-Test/Hexo-JS/"/>
+    
+    
+      <category term="code,markdown" scheme="http://www.shaneweng.com/tags/code-markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hello hexo</title>
+    <link href="http://www.shaneweng.com/2017/08/16/hello-hexo/"/>
+    <id>http://www.shaneweng.com/2017/08/16/hello-hexo/</id>
+    <published>2017-08-16T21:58:38.000Z</published>
+    <updated>2017-09-15T00:29:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Test</p><p><a href="http://abc.com" target="_blank" rel="external">http://abc.com</a></p><p>H<sub>2</sub>O</p><a id="more"></a><p>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</p><p><a class="fancybox" href="http://d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg" title="Caption" data-fancybox-group="" target="_blank" rel="external"><img class="fig-img" src="http://d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg" style="width:75%;" alt="Caption"></a></p><p><img src="/assets/images/slides.png" alt="image demo"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Test&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://abc.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://abc.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Why Dot Files are Needed</title>
+    <link href="http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/"/>
+    <id>http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/</id>
+    <published>2013-02-01T08:00:00.000Z</published>
+    <updated>2017-09-15T00:29:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>The answer is<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>:</p><ul><li>Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine.</li><li>Learn from the community. Discover new tools for your toolbox and new tricks for the ones you already use.</li><li>Share what you’ve learned with the rest of us.</li></ul><a id="more"></a><p><a class="fancybox" href="http://dotfiles.github.io/images/dotfiles-logo.png" title="Caption" data-fancybox-group="" target="_blank" rel="external"><img class="fig-img" src="http://dotfiles.github.io/images/dotfiles-logo.png" style="width:75%;" alt="Caption"></a></p><h2 id="here-is-my-dotfiles-on-github">Here is My Dotfiles on Github</h2><ul><li>DotFiles<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></li></ul><h2 id="my-customized-system-based-on-dotfiles">My Customized System Based on Dotfiles</h2><ul><li>Shell - ZSH, which is Oh My ZSH</li><li>Language - Ruby<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></li><li>Web Framework - Ruby on Rails<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></li><li>OS - Linux Ubuntu and Mac OS X</li><li>Editor - vim</li><li>VCS - git</li></ul><h2 id="references">References</h2><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>The answer is from <a href="http://dotfiles.github.com/" target="_blank" rel="external">Github Dotfiles</a> <a href="#fnref1" class="footnote-backref">↩</a></p></li><li id="fn2" class="footnote-item"><p><a href="https://github.com/swcool/dotfiles" target="_blank" rel="external">https://github.com/swcool/dotfiles</a> <a href="#fnref2" class="footnote-backref">↩</a></p></li><li id="fn3" class="footnote-item"><p><a href="https://github.com/ruby/ruby" target="_blank" rel="external">https://github.com/ruby/ruby</a> <a href="#fnref3" class="footnote-backref">↩</a></p></li><li id="fn4" class="footnote-item"><p><a href="https://github.com/rails/rails" target="_blank" rel="external">https://github.com/rails/rails</a> <a href="#fnref4" class="footnote-backref">↩</a></p></li></ol></section>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The answer is&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine.&lt;/li&gt;
+&lt;li&gt;Learn from the community. Discover new tools for your toolbox and new tricks for the ones you already use.&lt;/li&gt;
+&lt;li&gt;Share what you’ve learned with the rest of us.&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="blog-tech" scheme="http://www.shaneweng.com/categories/blog-tech/"/>
+    
+    
+      <category term="dotfiles" scheme="http://www.shaneweng.com/tags/dotfiles/"/>
+    
+      <category term="git" scheme="http://www.shaneweng.com/tags/git/"/>
+    
+  </entry>
+  
+</feed>
