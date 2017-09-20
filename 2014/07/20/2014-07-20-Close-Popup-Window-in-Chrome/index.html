@@ -17,18 +17,18 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="Chrome Fixed the security issues on version 36.0.1985.125 Chrome 36.0.1985.125 WEDNESDAY, JULY 16, 2014 Release note">
+    <meta name="description" content="On JULY 16, 2014 WEDNESDAY, Chrome release its version 36.0.1985.125 which fixed some security related issues. Here is the Release note. According to the releas note, the new version contains a number">
 <meta name="keywords" content="chrome">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="Close Popup Window in Chrome Extension">
 <meta property="og:url" content="http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/index.html">
 <meta property="og:site_name" content="Shane Weng&#39;s Blog">
-<meta property="og:description" content="Chrome Fixed the security issues on version 36.0.1985.125 Chrome 36.0.1985.125 WEDNESDAY, JULY 16, 2014 Release note">
+<meta property="og:description" content="On JULY 16, 2014 WEDNESDAY, Chrome release its version 36.0.1985.125 which fixed some security related issues. Here is the Release note. According to the releas note, the new version contains a number">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-09-15T20:54:04.000Z">
+<meta property="og:updated_time" content="2017-09-20T15:41:57.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Close Popup Window in Chrome Extension">
-<meta name="twitter:description" content="Chrome Fixed the security issues on version 36.0.1985.125 Chrome 36.0.1985.125 WEDNESDAY, JULY 16, 2014 Release note">
+<meta name="twitter:description" content="On JULY 16, 2014 WEDNESDAY, Chrome release its version 36.0.1985.125 which fixed some security related issues. Here is the Release note. According to the releas note, the new version contains a number">
 <meta name="twitter:creator" content="@baiyungroup">
     
         <link rel="publisher" href="https://plus.google.com/106544236384520650000"/>
@@ -255,7 +255,7 @@
     
         <span>in </span>
         
-    <a class="category-link" href="/categories/blog/">blog</a>
+    <a class="category-link" href="/categories/tech/">tech</a>
 
 
     
@@ -266,11 +266,8 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <h3 id="chrome-fixed-the-security-issues-on-version-36-0-1985-125">Chrome Fixed the security issues on version 36.0.1985.125</h3>
-<p>Chrome 36.0.1985.125 WEDNESDAY, JULY 16, 2014<br>
-<a href="http://googlechromereleases.blogspot.com/2014/07/stable-channel-update.html" target="_blank" rel="external">Release note</a></p>
-<a id="more"></a>
-<p>As it said, the new version contains a number of fixes and improvements, including:</p>
+            <p>On JULY 16, 2014 WEDNESDAY, Chrome release its version 36.0.1985.125 which fixed some security related issues. Here is the <a href="http://googlechromereleases.blogspot.com/2014/07/stable-channel-update.html" target="_blank" rel="external">Release note</a>.</p>
+<p>According to the releas note, the new version contains a number of fixes and improvements, including:</p>
 <blockquote>
 <p>Rich Notifications Improvements<br>
 An Updated Incognito / Guest NTP design<br>
@@ -278,7 +275,9 @@ The addition of a Browser crash recovery bubble<br>
 Chrome App Launcher for Linux<br>
 Lots of under the hood changes for stability and performance</p>
 </blockquote>
-<p>It also said:</p>
+<br>
+It also said:
+<a id="more"></a>
 <blockquote>
 <p>This update includes 26 security fixes. Below, we highlight fixes that were either contributed by external researchers or particularly interesting. Please see the Chromium security page for more information.</p>
 </blockquote>
@@ -290,8 +289,10 @@ Lots of under the hood changes for stability and performance</p>
 <p>method to remove it. Chrome extension windows API can be found at <a href="https://developer.chrome.com/extensions/windows" target="_blank" rel="external">chrome.windows</a>.</p>
 <p><code>chrome.windows.remove</code> is Chrome extension API, javascript program should be recognized by chrome extension. You can try by putting it inside background.js, in your chrome extension manifest.json you need to have:</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">"background"</span>: &#123;</div><div class="line">  <span class="string">"scripts"</span>: [<span class="string">"background.js"</span>],</div><div class="line">  ...</div><div class="line">&#125;,</div></pre></td></tr></table></figure>
-<p>Actually my chrome extension <a href="https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim" target="_blank" rel="external">MarkView</a> was facing this issue and I had to update my code to make it work for this Chrome Update. By the way, MarkView is tool to read and write Awesome Markdown Files, it provides features including Content Outline, Sortable Tables and code block syntax highlight with line number.</p>
 <p>In the past, a great discussion around this window close issue can be found at <a href="http://stackoverflow.com/questions/19761241/window-close-and-self-close-do-not-close-the-window-in-chrome" target="_blank" rel="external">stackoverflow</a>.</p>
+<p>Actually my chrome extension <a href="https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim" target="_blank" rel="external">MarkView</a> was facing this issue and I had to update my code to make it work for this Chrome Update. By the way, MarkView is tool to read and write Awesome Markdown Files, it provides features including Content Outline, Sortable Tables and code block syntax highlight with line number.</p>
+<p>Update: Due to the design changes, MarkView no longer use popup window<br>
+for login, user won’t see the action of “close popup window” in current version of MarkView.</p>
 
             
         </div>
@@ -608,9 +609,17 @@ Lots of under the hood changes for stability and performance</p>
                                 
                             </span>
                         </span>
-                        <div class="media-content hide-xs font-merryweather"><h3 id="chrome-fixed-the-security-issues-on-version-36-0-1985-125">Chrome Fixed the security issues on version 36.0.1985.125</h3>
-<p>Chrome 36.0.1985.125 WEDNESDAY, JULY 16, 2014<br>
-<a href="http://googlechromereleases.blogspot.com/2014/07/stable-channel-update.html" target="_blank" rel="external">Release note</a></p></div>
+                        <div class="media-content hide-xs font-merryweather"><p>On JULY 16, 2014 WEDNESDAY, Chrome release its version 36.0.1985.125 which fixed some security related issues. Here is the <a href="http://googlechromereleases.blogspot.com/2014/07/stable-channel-update.html" target="_blank" rel="external">Release note</a>.</p>
+<p>According to the releas note, the new version contains a number of fixes and improvements, including:</p>
+<blockquote>
+<p>Rich Notifications Improvements<br>
+An Updated Incognito / Guest NTP design<br>
+The addition of a Browser crash recovery bubble<br>
+Chrome App Launcher for Linux<br>
+Lots of under the hood changes for stability and performance</p>
+</blockquote>
+<br>
+It also said:</div>
                     </div>
                     <div style="clear:both;"></div>
                     <hr>
