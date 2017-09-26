@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Shane Weng&#39;s Blog">
-    <title>Why Dot Files are Needed - Shane Weng&#39;s Blog</title>
+    <title>Managing Your Dotfiles to Utilize Your System - Shane Weng&#39;s Blog</title>
     <meta name="author" content="Shane Weng">
     
         <meta name="keywords" content="hexo,javascript,">
@@ -17,19 +17,19 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="The answer is[1]:  Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine. Learn from the community. Discover new tools for">
+    <meta name="description" content="In order to backup, restore, and sync the prefs and settings for my toolbox, I create a repository includes all of my custome dotfiles. By the time I created this repository, I recognized that my dotf">
 <meta name="keywords" content="dotfiles,git">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Why Dot Files are Needed">
-<meta property="og:url" content="http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/index.html">
+<meta property="og:title" content="Managing Your Dotfiles to Utilize Your System">
+<meta property="og:url" content="http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/index.html">
 <meta property="og:site_name" content="Shane Weng&#39;s Blog">
-<meta property="og:description" content="The answer is[1]:  Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine. Learn from the community. Discover new tools for">
+<meta property="og:description" content="In order to backup, restore, and sync the prefs and settings for my toolbox, I create a repository includes all of my custome dotfiles. By the time I created this repository, I recognized that my dotf">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://dotfiles.github.io/images/dotfiles-logo.png">
-<meta property="og:updated_time" content="2017-09-15T20:43:23.000Z">
+<meta property="og:updated_time" content="2017-09-26T00:53:23.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Why Dot Files are Needed">
-<meta name="twitter:description" content="The answer is[1]:  Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine. Learn from the community. Discover new tools for">
+<meta name="twitter:title" content="Managing Your Dotfiles to Utilize Your System">
+<meta name="twitter:description" content="In order to backup, restore, and sync the prefs and settings for my toolbox, I create a repository includes all of my custome dotfiles. By the time I created this repository, I recognized that my dotf">
 <meta name="twitter:image" content="http://dotfiles.github.io/images/dotfiles-logo.png">
 <meta name="twitter:creator" content="@baiyungroup">
     
@@ -42,8 +42,8 @@
         <meta property="og:image" content="http://www.shaneweng.com/assets/images/shane_circle.png"/>
     
     
-        <meta property="og:image" content="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-stacked.png"/>
-        <meta class="swiftype" name="image" data-type="enum" content="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-stacked.png" />
+        <meta property="og:image" content="https://cdn-images-1.medium.com/max/800/1*ayVl2ie6CS0Flqr8TxoYgQ.png"/>
+        <meta class="swiftype" name="image" data-type="enum" content="https://cdn-images-1.medium.com/max/800/1*ayVl2ie6CS0Flqr8TxoYgQ.png" />
     
     
     
@@ -244,20 +244,20 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            Why Dot Files are Needed
+            Managing Your Dotfiles to Utilize Your System
         </h1>
     
     
         <div class="post-meta">
-    <time itemprop="datePublished" datetime="2013-02-01T00:00:00-08:00">
+    <time itemprop="datePublished" datetime="2017-09-25T00:00:00-07:00">
 	
-		    Feb 01, 2013
+		    Sep 25, 2017
     	
     </time>
     
         <span>in </span>
         
-    <a class="category-link" href="/categories/blog-tech/">blog-tech</a>
+    <a class="category-link" href="/categories/tech/">tech</a>
 
 
     
@@ -268,38 +268,55 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>The answer is<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>:</p>
-<ul>
-<li>Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine.</li>
-<li>Learn from the community. Discover new tools for your toolbox and new tricks for the ones you already use.</li>
-<li>Share what you’ve learned with the rest of us.</li>
-</ul>
+            <p>In order to backup, restore, and sync the prefs and settings for my toolbox, I create a repository includes all of my custome dotfiles. By the time I created this repository, I recognized that my dotfiles are the most important files on my machine.</p>
 <a id="more"></a>
 <p><a class="fancybox" href="http://dotfiles.github.io/images/dotfiles-logo.png" title="Caption" data-fancybox-group="" target="_blank" rel="external"><img class="fig-img" src="http://dotfiles.github.io/images/dotfiles-logo.png" style="width:75%;" alt="Caption"></a></p>
-<h2 id="here-is-my-dotfiles-on-github">Here is My Dotfiles on Github</h2>
+<p>These repository dotfiles<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> are for setup the system enviornment in Mac OS.</p>
+<h2 id="installation">Installation</h2>
+<ol start="0">
+<li>
+<p>Backup your home original dotfiles if you need.</p>
+</li>
+<li>
+<p>Get the repository whereever you want. I like to keep in ~/Projects/dotfiles</p>
+<pre><code> git clone https://github.com/swcool/dotfiles.git
+</code></pre>
+</li>
+<li>
+<p>Using homebrew to install apps such as zsh, tmux, git, and vim</p>
+<pre><code> cd dotfiles; setup/homebrew.sh
+</code></pre>
+</li>
+<li>
+<p>Symlink to dotfiles to home directory as <code>~/.*</code></p>
+<pre><code> setup/create_symlink.sh
+</code></pre>
+</li>
+<li>
+<p>Start using your dotfiles’ apps</p>
+</li>
+</ol>
+<h2 id="repository-structure">Repository Structure</h2>
 <ul>
-<li>DotFiles<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></li>
+<li>bin/   -  Utility executable scripts, should be copy to ~/bin/</li>
+<li>git/   -  Git related dotfiles and other configuration files.</li>
+<li>setup/ -  Installation files for dotfiles’ apps</li>
+<li>tmux/  -  Tmux related dotfiles.</li>
+<li>vim/   -  Vim  related dotfiles and other configuration files.</li>
+<li>zsh/   -  ZSH related dotfiles, aliases and other files.</li>
 </ul>
-<h2 id="my-customized-system-based-on-dotfiles">My Customized System Based on Dotfiles</h2>
+<h2 id="awesome-dotfiles">Awesome Dotfiles</h2>
 <ul>
-<li>Shell - ZSH, which is Oh My ZSH</li>
-<li>Language - Ruby<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></li>
-<li>Web Framework - Ruby on Rails<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></li>
-<li>OS - Linux Ubuntu and Mac OS X</li>
-<li>Editor - vim</li>
-<li>VCS - git</li>
+<li>A curated list of dotfiles resources, the reference project is<br>
+<a href="https://github.com/webpro/awesome-dotfiles" target="_blank" rel="external">Awesome Dotfiles</a>.</li>
+<li>A list of Github Popular <a href="https://github.com/search?q=topic%3Adotfiles&amp;type=Repositories" target="_blank" rel="external">Dotfiles repositories</a>.</li>
+<li><a href="http://dotfiles.github.io" target="_blank" rel="external">dotfiles.github.io</a> - Your unofficial<br>
+guide to dotfiles on GitHub.</li>
 </ul>
-<h2 id="references">References</h2>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>The answer is from <a href="http://dotfiles.github.com/" target="_blank" rel="external">Github Dotfiles</a> <a href="#fnref1" class="footnote-backref">↩</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p><a href="https://github.com/swcool/dotfiles" target="_blank" rel="external">https://github.com/swcool/dotfiles</a> <a href="#fnref2" class="footnote-backref">↩</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p><a href="https://github.com/ruby/ruby" target="_blank" rel="external">https://github.com/ruby/ruby</a> <a href="#fnref3" class="footnote-backref">↩</a></p>
-</li>
-<li id="fn4" class="footnote-item"><p><a href="https://github.com/rails/rails" target="_blank" rel="external">https://github.com/rails/rails</a> <a href="#fnref4" class="footnote-backref">↩</a></p>
+<li id="fn1" class="footnote-item"><p><a href="https://github.com/swcool/dotfiles" target="_blank" rel="external">https://github.com/swcool/dotfiles</a> <a href="#fnref1" class="footnote-backref">↩</a></p>
 </li>
 </ol>
 </section>
@@ -322,7 +339,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/"  data-tooltip="Close Popup Window in Chrome Extension">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -330,7 +347,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--disabled">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/" data-tooltip="Close Popup Window in Chrome Extension">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -348,7 +365,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-facebook-official"></i>
                 </a>
             </li>
@@ -356,7 +373,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-twitter"></i>
                 </a>
             </li>
@@ -364,7 +381,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-google-plus"></i>
                 </a>
             </li>
@@ -414,7 +431,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/"  data-tooltip="Close Popup Window in Chrome Extension">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -422,7 +439,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--disabled">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/" data-tooltip="Close Popup Window in Chrome Extension">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -440,7 +457,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-facebook-official"></i>
                 </a>
             </li>
@@ -448,7 +465,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-twitter"></i>
                 </a>
             </li>
@@ -456,7 +473,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-google-plus"></i>
                 </a>
             </li>
@@ -487,7 +504,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
+                <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
                 </a>
             </li>
@@ -495,7 +512,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
+                <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-twitter"></i><span>Share on Twitter</span>
                 </a>
             </li>
@@ -503,7 +520,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
+                <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-google-plus"></i><span>Share on Google+</span>
                 </a>
             </li>
@@ -573,36 +590,6 @@
                 <div class="media">
                     
                     <div class="media-left">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
-                            <img class="media-image" src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-stacked.png" width="90" height="90"/>
-                        </a>
-                    </div>
-                    
-                    <div class="media-body">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/">
-                            <h3 class="media-heading">Why Dot Files are Needed</h3>
-                        </a>
-                        <span class="media-meta">
-                            <span class="media-date text-small">
-                                
-                                    Feb 1, 2013
-                                
-                            </span>
-                        </span>
-                        <div class="media-content hide-xs font-merryweather"><p>The answer is<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>:</p>
-<ul>
-<li>Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine.</li>
-<li>Learn from the community. Discover new tools for your toolbox and new tricks for the ones you already use.</li>
-<li>Share what you’ve learned with the rest of us.</li>
-</ul></div>
-                    </div>
-                    <div style="clear:both;"></div>
-                    <hr>
-                </div>
-                
-                <div class="media">
-                    
-                    <div class="media-left">
                         <a class="link-unstyled" href="http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
                             <img class="media-image" src="http://logos-download.com/wp-content/uploads/2016/05/Google_Chrome_logo_icon.png" width="90" height="90"/>
                         </a>
@@ -620,16 +607,32 @@
                             </span>
                         </span>
                         <div class="media-content hide-xs font-merryweather"><p>On JULY 16, 2014 WEDNESDAY, Chrome release its version 36.0.1985.125 which fixed some security related issues. Here is the <a href="http://googlechromereleases.blogspot.com/2014/07/stable-channel-update.html" target="_blank" rel="external">Release note</a>.</p>
-<p>According to the releas note, the new version contains a number of fixes and improvements, including:</p>
-<blockquote>
-<p>Rich Notifications Improvements<br>
-An Updated Incognito / Guest NTP design<br>
-The addition of a Browser crash recovery bubble<br>
-Chrome App Launcher for Linux<br>
-Lots of under the hood changes for stability and performance</p>
-</blockquote>
-<br>
-It also said:</div>
+<p>According to the releas note, the new version contains a number of fixes and improvements, including:</p></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+                <div class="media">
+                    
+                    <div class="media-left">
+                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
+                            <img class="media-image" src="https://cdn-images-1.medium.com/max/800/1*ayVl2ie6CS0Flqr8TxoYgQ.png" width="90" height="90"/>
+                        </a>
+                    </div>
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
+                            <h3 class="media-heading">Managing Your Dotfiles to Utilize Your System</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    Sep 25, 2017
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"><p>In order to backup, restore, and sync the prefs and settings for my toolbox, I create a repository includes all of my custome dotfiles. By the time I created this repository, I recognized that my dotfiles are the most important files on my machine.</p></div>
                     </div>
                     <div style="clear:both;"></div>
                     <hr>
@@ -657,9 +660,9 @@ It also said:</div>
     
         <script>
              var disqus_config = function () {
-                 this.page.url = 'http://www.shaneweng.com/2013/02/01/2013-02-01-why-dotfiles-are-needed/';
+                 this.page.url = 'http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/';
                  
-                    this.page.identifier = '2013/02/01/2013-02-01-why-dotfiles-are-needed/';
+                    this.page.identifier = '2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/';
                  
              };
             (function() {
