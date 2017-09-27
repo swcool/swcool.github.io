@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Shane Weng&#39;s Blog">
-    <title>Close Popup Window in Chrome Extension - Shane Weng&#39;s Blog</title>
+    <title>Managing Your Dotfiles to Utilize Your System - Shane Weng&#39;s Blog</title>
     <meta name="author" content="Shane Weng">
     
         <meta name="keywords" content="hexo,javascript,">
@@ -17,18 +17,20 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="On JULY 16, 2014 WEDNESDAY, Chrome release its version 36.0.1985.125 which fixed some security related issues. Here is the Release note. According to the releas note, the new version contains a number">
-<meta name="keywords" content="chrome">
+    <meta name="description" content="In order to backup, restore, and sync the prefs and settings for my toolbox, I create a repository includes all of my custome dotfiles. By the time I created this repository, I recognized that my dotf">
+<meta name="keywords" content="dotfiles,git">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Close Popup Window in Chrome Extension">
-<meta property="og:url" content="http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/index.html">
+<meta property="og:title" content="Managing Your Dotfiles to Utilize Your System">
+<meta property="og:url" content="http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/index.html">
 <meta property="og:site_name" content="Shane Weng&#39;s Blog">
-<meta property="og:description" content="On JULY 16, 2014 WEDNESDAY, Chrome release its version 36.0.1985.125 which fixed some security related issues. Here is the Release note. According to the releas note, the new version contains a number">
+<meta property="og:description" content="In order to backup, restore, and sync the prefs and settings for my toolbox, I create a repository includes all of my custome dotfiles. By the time I created this repository, I recognized that my dotf">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="http://dotfiles.github.io/images/dotfiles-logo.png">
 <meta property="og:updated_time" content="2017-09-27T03:02:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Close Popup Window in Chrome Extension">
-<meta name="twitter:description" content="On JULY 16, 2014 WEDNESDAY, Chrome release its version 36.0.1985.125 which fixed some security related issues. Here is the Release note. According to the releas note, the new version contains a number">
+<meta name="twitter:title" content="Managing Your Dotfiles to Utilize Your System">
+<meta name="twitter:description" content="In order to backup, restore, and sync the prefs and settings for my toolbox, I create a repository includes all of my custome dotfiles. By the time I created this repository, I recognized that my dotf">
+<meta name="twitter:image" content="http://dotfiles.github.io/images/dotfiles-logo.png">
 <meta name="twitter:creator" content="@baiyungroup">
     
         <link rel="publisher" href="https://plus.google.com/106544236384520650000"/>
@@ -40,8 +42,8 @@
         <meta property="og:image" content="http://www.shaneweng.com/assets/images/shane_circle.png"/>
     
     
-        <meta property="og:image" content="http://logos-download.com/wp-content/uploads/2016/05/Google_Chrome_logo_icon.png"/>
-        <meta class="swiftype" name="image" data-type="enum" content="http://logos-download.com/wp-content/uploads/2016/05/Google_Chrome_logo_icon.png" />
+        <meta property="og:image" content="https://cdn-images-1.medium.com/max/800/1*ayVl2ie6CS0Flqr8TxoYgQ.png"/>
+        <meta class="swiftype" name="image" data-type="enum" content="https://cdn-images-1.medium.com/max/800/1*ayVl2ie6CS0Flqr8TxoYgQ.png" />
     
     
     
@@ -242,20 +244,20 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            Close Popup Window in Chrome Extension
+            Managing Your Dotfiles to Utilize Your System
         </h1>
     
     
         <div class="post-meta">
-    <time itemprop="datePublished" datetime="2014-07-20T00:00:00-07:00">
+    <time itemprop="datePublished" datetime="2017-09-25T00:00:00-07:00">
 	
-		    Jul 20, 2014
+		    Sep 25, 2017
     	
     </time>
     
         <span>in </span>
         
-    <a class="category-link" href="/categories/web/">web</a>
+    <a class="category-link" href="/categories/system/">system</a>
 
 
     
@@ -266,33 +268,58 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>On JULY 16, 2014 WEDNESDAY, Chrome release its version 36.0.1985.125 which fixed some security related issues. Here is the <a href="http://googlechromereleases.blogspot.com/2014/07/stable-channel-update.html" target="_blank" rel="external">Release note</a>.</p>
-<p>According to the releas note, the new version contains a number of fixes and improvements, including:</p>
+            <p>In order to backup, restore, and sync the prefs and settings for my toolbox, I create a repository includes all of my custome dotfiles. By the time I created this repository, I recognized that my dotfiles are the most important files on my machine.</p>
 <a id="more"></a>
-<blockquote>
-<p>Rich Notifications Improvements<br>
-An Updated Incognito / Guest NTP design<br>
-The addition of a Browser crash recovery bubble<br>
-Chrome App Launcher for Linux<br>
-Lots of under the hood changes for stability and performance</p>
-</blockquote>
-<br>
-It also said:
-<blockquote>
-<p>This update includes 26 security fixes. Below, we highlight fixes that were either contributed by external researchers or particularly interesting. Please see the Chromium security page for more information.</p>
-</blockquote>
-<p>From my observation, this update fixed the issue on using <code>window.close()</code> to close the popup window. You will see this in the console when it fail, “Scripts may close only the windows that were opened by it.”</p>
-<p>So, in the previous Chrome released builds, the below code block may worked but not with this update.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">window</span>.open(<span class="string">''</span>, <span class="string">'_self'</span>, <span class="string">''</span>);</div><div class="line"><span class="built_in">window</span>.close();</div></pre></td></tr></table></figure>
-<p>Above is to open a new window with about:blank to replace the current page, then close it. From this Chrome update, you have to update your code accordingly to close the popup window. One of the solution is to grab the popup window id and use</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chrome.windows.remove(integer windowId, <span class="function"><span class="keyword">function</span> <span class="title">callback</span>)</span></div></pre></td></tr></table></figure>
-<p>method to remove it. Chrome extension windows API can be found at <a href="https://developer.chrome.com/extensions/windows" target="_blank" rel="external">chrome.windows</a>.</p>
-<p><code>chrome.windows.remove</code> is Chrome extension API, javascript program should be recognized by chrome extension. You can try by putting it inside background.js, in your chrome extension manifest.json you need to have:</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">"background"</span>: &#123;</div><div class="line">  <span class="string">"scripts"</span>: [<span class="string">"background.js"</span>],</div><div class="line">  ...</div><div class="line">&#125;,</div></pre></td></tr></table></figure>
-<p>In the past, a great discussion around this window close issue can be found at <a href="http://stackoverflow.com/questions/19761241/window-close-and-self-close-do-not-close-the-window-in-chrome" target="_blank" rel="external">stackoverflow</a>.</p>
-<p>Actually my chrome extension <a href="https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim" target="_blank" rel="external">MarkView</a> was facing this issue and I had to update my code to make it work for this Chrome Update. By the way, MarkView is tool to read and write Awesome Markdown Files, it provides features including Content Outline, Sortable Tables and code block syntax highlight with line number.</p>
-<p>Update: Due to the design changes, MarkView no longer use popup window<br>
-for login, user won’t see the action of “close popup window” in current version of MarkView.</p>
+<p><a class="fancybox" href="http://dotfiles.github.io/images/dotfiles-logo.png" title="Caption" data-fancybox-group="" target="_blank" rel="external"><img class="fig-img" src="http://dotfiles.github.io/images/dotfiles-logo.png" style="width:75%;" alt="Caption"></a></p>
+<p>These repository dotfiles<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> are for setup the system enviornment in Mac OS.</p>
+<h2 id="installation">Installation</h2>
+<ol start="0">
+<li>
+<p>Backup your home original dotfiles if you need.</p>
+</li>
+<li>
+<p>Get the repository whereever you want. I like to keep in ~/Projects/dotfiles</p>
+<pre><code> git clone https://github.com/swcool/dotfiles.git
+</code></pre>
+</li>
+<li>
+<p>Using homebrew to install apps such as zsh, tmux, git, and vim</p>
+<pre><code> cd dotfiles; setup/homebrew.sh
+</code></pre>
+</li>
+<li>
+<p>Symlink to dotfiles to home directory as <code>~/.*</code></p>
+<pre><code> setup/create_symlink.sh
+</code></pre>
+</li>
+<li>
+<p>Start using your dotfiles’ apps</p>
+</li>
+</ol>
+<h2 id="repository-structure">Repository Structure</h2>
+<ul>
+<li>bin/   -  Utility executable scripts, should be copy to ~/bin/</li>
+<li>git/   -  Git related dotfiles and other configuration files.</li>
+<li>setup/ -  Installation files for dotfiles’ apps</li>
+<li>tmux/  -  Tmux related dotfiles.</li>
+<li>vim/   -  Vim  related dotfiles and other configuration files.</li>
+<li>zsh/   -  ZSH related dotfiles, aliases and other files.</li>
+</ul>
+<h2 id="awesome-dotfiles">Awesome Dotfiles</h2>
+<ul>
+<li>A curated list of dotfiles resources, the reference project is<br>
+<a href="https://github.com/webpro/awesome-dotfiles" target="_blank" rel="external">Awesome Dotfiles</a>.</li>
+<li>A list of Github Popular <a href="https://github.com/search?q=topic%3Adotfiles&amp;type=Repositories" target="_blank" rel="external">Dotfiles repositories</a>.</li>
+<li><a href="http://dotfiles.github.io" target="_blank" rel="external">dotfiles.github.io</a> - Your unofficial<br>
+guide to dotfiles on GitHub.</li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://github.com/swcool/dotfiles" target="_blank" rel="external">https://github.com/swcool/dotfiles</a> <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
 
             
         </div>
@@ -302,7 +329,7 @@ for login, user won’t see the action of “close popup window” in current ve
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">TAGGED IN</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/chrome/">chrome</a>
+    <a class="tag tag--primary tag--small t-link" href="/tags/dotfiles/">dotfiles</a> <a class="tag tag--primary tag--small t-link" href="/tags/git/">git</a>
 
             </div>
         
@@ -312,7 +339,7 @@ for login, user won’t see the action of “close popup window” in current ve
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/"  data-tooltip="Managing Your Dotfiles to Utilize Your System">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/09/27/jekyll-theme-landing-page/"  data-tooltip="Jekyll Theme Landing Page">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -320,7 +347,7 @@ for login, user won’t see the action of “close popup window” in current ve
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--disabled">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2014/07/20/close-popup-window-in-chrome/" data-tooltip="Close Popup Window in Chrome Extension">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -338,7 +365,7 @@ for login, user won’t see the action of “close popup window” in current ve
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-facebook-official"></i>
                 </a>
             </li>
@@ -346,7 +373,7 @@ for login, user won’t see the action of “close popup window” in current ve
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-twitter"></i>
                 </a>
             </li>
@@ -354,7 +381,7 @@ for login, user won’t see the action of “close popup window” in current ve
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-google-plus"></i>
                 </a>
             </li>
@@ -404,7 +431,7 @@ for login, user won’t see the action of “close popup window” in current ve
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/"  data-tooltip="Managing Your Dotfiles to Utilize Your System">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/09/27/jekyll-theme-landing-page/"  data-tooltip="Jekyll Theme Landing Page">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -412,7 +439,7 @@ for login, user won’t see the action of “close popup window” in current ve
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--disabled">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2014/07/20/close-popup-window-in-chrome/" data-tooltip="Close Popup Window in Chrome Extension">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -430,7 +457,7 @@ for login, user won’t see the action of “close popup window” in current ve
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-facebook-official"></i>
                 </a>
             </li>
@@ -438,7 +465,7 @@ for login, user won’t see the action of “close popup window” in current ve
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-twitter"></i>
                 </a>
             </li>
@@ -446,7 +473,7 @@ for login, user won’t see the action of “close popup window” in current ve
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-google-plus"></i>
                 </a>
             </li>
@@ -477,7 +504,7 @@ for login, user won’t see the action of “close popup window” in current ve
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
                 </a>
             </li>
@@ -485,7 +512,7 @@ for login, user won’t see the action of “close popup window” in current ve
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-twitter"></i><span>Share on Twitter</span>
                 </a>
             </li>
@@ -493,7 +520,7 @@ for login, user won’t see the action of “close popup window” in current ve
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                     <i class="fa fa-google-plus"></i><span>Share on Google+</span>
                 </a>
             </li>
@@ -563,13 +590,13 @@ for login, user won’t see the action of “close popup window” in current ve
                 <div class="media">
                     
                     <div class="media-left">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                        <a class="link-unstyled" href="http://www.shaneweng.com/2014/07/20/close-popup-window-in-chrome/">
                             <img class="media-image" src="http://logos-download.com/wp-content/uploads/2016/05/Google_Chrome_logo_icon.png" width="90" height="90"/>
                         </a>
                     </div>
                     
                     <div class="media-body">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/">
+                        <a class="link-unstyled" href="http://www.shaneweng.com/2014/07/20/close-popup-window-in-chrome/">
                             <h3 class="media-heading">Close Popup Window in Chrome Extension</h3>
                         </a>
                         <span class="media-meta">
@@ -589,13 +616,13 @@ for login, user won’t see the action of “close popup window” in current ve
                 <div class="media">
                     
                     <div class="media-left">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
+                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                             <img class="media-image" src="https://cdn-images-1.medium.com/max/800/1*ayVl2ie6CS0Flqr8TxoYgQ.png" width="90" height="90"/>
                         </a>
                     </div>
                     
                     <div class="media-body">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/">
+                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/">
                             <h3 class="media-heading">Managing Your Dotfiles to Utilize Your System</h3>
                         </a>
                         <span class="media-meta">
@@ -614,19 +641,19 @@ for login, user won’t see the action of “close popup window” in current ve
                 <div class="media">
                     
                     <div class="media-left">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/26/2017-09-26-jekyll-theme-landing-page/">
+                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/27/jekyll-theme-landing-page/">
                             <img class="media-image" src="https://raw.githubusercontent.com/BaiyunGroup/landing-page-theme/master/img/screenshot.png" width="90" height="90"/>
                         </a>
                     </div>
                     
                     <div class="media-body">
-                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/26/2017-09-26-jekyll-theme-landing-page/">
+                        <a class="link-unstyled" href="http://www.shaneweng.com/2017/09/27/jekyll-theme-landing-page/">
                             <h3 class="media-heading">Jekyll Theme Landing Page</h3>
                         </a>
                         <span class="media-meta">
                             <span class="media-date text-small">
                                 
-                                    Sep 26, 2017
+                                    Sep 27, 2017
                                 
                             </span>
                         </span>
@@ -658,9 +685,9 @@ for login, user won’t see the action of “close popup window” in current ve
     
         <script>
              var disqus_config = function () {
-                 this.page.url = 'http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/';
+                 this.page.url = 'http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/';
                  
-                    this.page.identifier = '2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/';
+                    this.page.identifier = '2017/09/25/managing-your-dotfiles-to-utilize-your-system/';
                  
              };
             (function() {

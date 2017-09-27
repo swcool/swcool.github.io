@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaneweng.com/"/>
-  <updated>2017-09-27T03:06:29.000Z</updated>
+  <updated>2017-09-27T13:11:10.000Z</updated>
   <id>http://www.shaneweng.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Jekyll Theme Landing Page</title>
-    <link href="http://www.shaneweng.com/2017/09/26/2017-09-26-jekyll-theme-landing-page/"/>
-    <id>http://www.shaneweng.com/2017/09/26/2017-09-26-jekyll-theme-landing-page/</id>
-    <published>2017-09-27T03:06:29.000Z</published>
-    <updated>2017-09-27T03:06:29.000Z</updated>
+    <link href="http://www.shaneweng.com/2017/09/27/jekyll-theme-landing-page/"/>
+    <id>http://www.shaneweng.com/2017/09/27/jekyll-theme-landing-page/</id>
+    <published>2017-09-27T13:11:10.000Z</published>
+    <updated>2017-09-27T13:11:10.000Z</updated>
     
     <content type="html"><![CDATA[<p>Simple and elegant web page theme. Landing page is a responsive website landing page theme for Jekyll Bootstrap. Fixed top navigation menu, easy to integrate with other sections inside the page, provide single and multiple languages support.</p><a id="more"></a><br><img src="https://raw.githubusercontent.com/BaiyunGroup/landing-page-theme/master/img/screenshot.png" width="640px" height="400px"><h2 id="features">Features</h2><ul><li>Navigation bar is on the fixed top</li><li>Social buttons icons are customizable</li><li>Fully responsive content sections with Bootstrap</li><li>Jekyll theme, easy to add/remove content through divided sections</li><li>Easy to deploy on Github for free hosting</li></ul><h2 id="demo-and-project-page">Demo and project page</h2><p>You can see demo and project page on Baiyun Consulting Group <a href="http://www.baiyunconsulting.com/portfolio-landpage.html" target="_blank" rel="external">Landing Page Project Portfolio</a></p><h2 id="open-source">Open Source</h2><h4 id="landing-page-iframe-src-http-ghbtns-com-github-btn-html-user-swcool-repo-landing-page-theme-type-watch-count-true-allowtransparency-true-frameborder-0-scrolling-0-width-110-height-20-iframe">Landing Page <iframe src="http://ghbtns.com/github-btn.html?user=swcool&repo=landing-page-theme&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></h4><p>Landing page Jekyll theme is open source project, you can find it on github <a href="https://github.com/swcool/landing-page-theme" target="_blank" rel="external">landing page</a>. Landing-Page theme is a services theme that allows you to showcase your services/products/portfolio. You can also see this theme listed on Jekyll themes gallery in <a href="http://jekyllthemes.org/themes/landing-page/" target="_blank" rel="external">here</a>.</p><h4 id="contribute-iframe-src-http-ghbtns-com-github-btn-html-user-swcool-repo-landing-page-theme-type-fork-count-true-allowtransparency-true-frameborder-0-scrolling-0-width-95-height-20-iframe">Contribute <iframe src="http://ghbtns.com/github-btn.html?user=swcool&repo=landing-page-theme&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe></h4><p>Start by <a href="https://github.com/swcool/landing-page-theme/fork" target="_blank" rel="external">forking</a> this repository.</p><h4 id="contact-iframe-src-http-ghbtns-com-github-btn-html-user-swcool-type-follow-allowtransparency-true-frameborder-0-scrolling-0-width-156-height-20-iframe">Contact <iframe src="http://ghbtns.com/github-btn.html?user=swcool&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="156" height="20"></iframe></h4><p>Feel free to <a href="https://github.com/swcool/landing-page-theme/issues/new" target="_blank" rel="external">open issues</a> if you run into trouble or have suggestions.<br>Pull Requests always welcome.</p><h2 id="need-extra-service">Need Extra Service</h2><p>Baiyun Consulting Group provides custom/modification services on this great theme. Services such as adding support for multiple languages, adding contact form, google map and so on. <a href="https://www.baiyunconsulting.com/contact.html#contact" target="_blank" rel="external">Contact us</a> if you need.</p><p><br><br><br><em>Feel free to Tweet, Share to Google+ or Leave a Comment here!</em></p>]]></content>
     
@@ -42,8 +42,8 @@
   
   <entry>
     <title>Managing Your Dotfiles to Utilize Your System</title>
-    <link href="http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/"/>
-    <id>http://www.shaneweng.com/2017/09/25/2017-09-25-managing-your-dotfiles-to-utilize-your-system/</id>
+    <link href="http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/"/>
+    <id>http://www.shaneweng.com/2017/09/25/managing-your-dotfiles-to-utilize-your-system/</id>
     <published>2017-09-25T07:00:00.000Z</published>
     <updated>2017-09-27T03:02:29.000Z</updated>
     
@@ -66,8 +66,8 @@
   
   <entry>
     <title>Close Popup Window in Chrome Extension</title>
-    <link href="http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/"/>
-    <id>http://www.shaneweng.com/2014/07/20/2014-07-20-Close-Popup-Window-in-Chrome/</id>
+    <link href="http://www.shaneweng.com/2014/07/20/close-popup-window-in-chrome/"/>
+    <id>http://www.shaneweng.com/2014/07/20/close-popup-window-in-chrome/</id>
     <published>2014-07-20T07:00:00.000Z</published>
     <updated>2017-09-27T03:02:29.000Z</updated>
     
